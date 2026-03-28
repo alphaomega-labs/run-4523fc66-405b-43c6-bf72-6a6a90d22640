@@ -1,0 +1,9 @@
+{
+  "packages": {
+    "antineutrino-safeguards": {
+      "latest_version": "0.1.0",
+      "record_path": "packages/registry/antineutrino-safeguards.json",
+      "updated_at_utc": "2026-03-28T07:07:26.300646Z"
+    }
+  }
+}

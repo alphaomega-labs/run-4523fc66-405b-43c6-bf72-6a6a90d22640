@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/antineutrino_safeguards/__init__.py
+src/antineutrino_safeguards/analysis.py
+src/antineutrino_safeguards/config.py
+src/antineutrino_safeguards/mcp_adapter.py
+src/antineutrino_safeguards/mcp_server.py
+src/antineutrino_safeguards/simulation.py
+src/antineutrino_safeguards/symbolic.py
+src/antineutrino_safeguards.egg-info/PKG-INFO
+src/antineutrino_safeguards.egg-info/SOURCES.txt
+src/antineutrino_safeguards.egg-info/dependency_links.txt
+src/antineutrino_safeguards.egg-info/requires.txt
+src/antineutrino_safeguards.egg-info/top_level.txt
+tests/test_pipeline.py

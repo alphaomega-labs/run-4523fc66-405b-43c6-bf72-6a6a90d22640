@@ -1,0 +1,11 @@
+{
+  "server_name": "antineutrino-safeguards",
+  "transport": "stdio",
+  "command": "python",
+  "args": [
+    "-m",
+    "antineutrino_safeguards.mcp_server",
+    "--serve"
+  ],
+  "env": {}
+}

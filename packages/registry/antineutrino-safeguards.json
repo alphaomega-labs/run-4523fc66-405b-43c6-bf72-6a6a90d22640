@@ -1,0 +1,29 @@
+{
+  "handle": "antineutrino-safeguards",
+  "distribution_name": "antineutrino-safeguards",
+  "import_name": "antineutrino_safeguards",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "manifest_path": "packages/antineutrino-safeguards/packaging_manifest.json",
+      "install_target": "packages/antineutrino-safeguards/dist/antineutrino_safeguards-0.1.0-py3-none-any.whl",
+      "published_at_utc": "2026-03-28T07:07:26.300681Z",
+      "artifacts": [
+        {
+          "kind": "wheel",
+          "path": "packages/antineutrino-safeguards/dist/antineutrino_safeguards-0.1.0-py3-none-any.whl",
+          "sha256": "187e52b16c943e10f0972243eee398244151709820d75a6f30de80b7c50669a4",
+          "size_bytes": 12993,
+          "url": null
+        },
+        {
+          "kind": "sdist",
+          "path": "packages/antineutrino-safeguards/dist/antineutrino_safeguards-0.1.0.tar.gz",
+          "sha256": "7d8c21b6e87fbf1b07541ec0dc5cc7b1d5a2e5919ed6b52604c61f78c822bc03",
+          "size_bytes": 12220,
+          "url": null
+        }
+      ]
+    }
+  ]
+}

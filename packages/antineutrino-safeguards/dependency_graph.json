@@ -1,0 +1,31 @@
+{
+  "direct": [
+    {
+      "name": "python",
+      "spec": ">=3.10",
+      "source": "runtime",
+      "transitive": false,
+      "required_by": [
+        "antineutrino-safeguards"
+      ]
+    }
+  ],
+  "transitive": [],
+  "flattened": [
+    {
+      "name": "python",
+      "spec": ">=3.10",
+      "source": "runtime",
+      "transitive": false,
+      "required_by": [
+        "antineutrino-safeguards"
+      ]
+    }
+  ],
+  "graph": {
+    "antineutrino-safeguards": [
+      "python"
+    ],
+    "python": []
+  }
+}

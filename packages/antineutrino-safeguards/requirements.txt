@@ -1,0 +1,2 @@
+# Runtime requirements for antineutrino-safeguards
+# External runtime dependencies: none (Python standard library only)

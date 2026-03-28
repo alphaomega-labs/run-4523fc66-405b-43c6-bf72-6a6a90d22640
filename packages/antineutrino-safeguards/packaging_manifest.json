@@ -1,0 +1,82 @@
+{
+  "handle": "antineutrino-safeguards",
+  "distribution_name": "antineutrino-safeguards",
+  "import_name": "antineutrino_safeguards",
+  "version": "0.1.0",
+  "package_type": "library",
+  "install": {
+    "canonical_command": "pip install omegaxiv && ox install antineutrino-safeguards==0.1.0",
+    "install_target": "packages/antineutrino-safeguards/dist/antineutrino_safeguards-0.1.0-py3-none-any.whl"
+  },
+  "core_exports": [
+    {
+      "source_path": "experiments/EXP-ED-01/src/exp_ed_01/simulation.py",
+      "source_symbol": "run_simulation",
+      "exported_module": "antineutrino_safeguards.simulation",
+      "exported_symbol": "FusionSafeguardsSimulator",
+      "rationale": "Primary simulation contribution for regime-by-baseline detectability metrics under nuisance shifts."
+    },
+    {
+      "source_path": "experiments/EXP-ED-01/src/exp_ed_01/analysis.py",
+      "source_symbol": "summarize_claims",
+      "exported_module": "antineutrino_safeguards.analysis",
+      "exported_symbol": "summarize_claims",
+      "rationale": "Claim-closure summary metrics (DMM-C1/C2/C3) are a core reusable analysis surface."
+    },
+    {
+      "source_path": "experiments/EXP-ED-01/src/exp_ed_01/symbolic.py",
+      "source_symbol": "run_sympy_audit",
+      "exported_module": "antineutrino_safeguards.symbolic",
+      "exported_symbol": "run_symbolic_audit",
+      "rationale": "Symbolic consistency checks provide reusable theorem-audit hooks for safeguards workflows."
+    }
+  ],
+  "mcp": {
+    "server_name": "antineutrino-safeguards",
+    "transport": "stdio",
+    "entrypoint": {
+      "kind": "python_module",
+      "module": "antineutrino_safeguards.mcp_server",
+      "args": [
+        "--serve"
+      ]
+    },
+    "env": {},
+    "startup_timeout_sec": 20,
+    "tool_timeout_sec": 60,
+    "files": [
+      "packages/antineutrino-safeguards/src/antineutrino_safeguards/mcp_server.py",
+      "packages/antineutrino-safeguards/src/antineutrino_safeguards/mcp_adapter.py",
+      "packages/antineutrino-safeguards/mcp_server.example.json"
+    ]
+  },
+  "paths": {
+    "readme": "packages/antineutrino-safeguards/README.md",
+    "requirements": "packages/antineutrino-safeguards/requirements.txt",
+    "dependency_graph": "packages/antineutrino-safeguards/dependency_graph.json"
+  },
+  "artifacts": [
+    {
+      "kind": "wheel",
+      "path": "packages/antineutrino-safeguards/dist/antineutrino_safeguards-0.1.0-py3-none-any.whl",
+      "sha256": "187e52b16c943e10f0972243eee398244151709820d75a6f30de80b7c50669a4",
+      "size_bytes": 12993,
+      "url": null
+    },
+    {
+      "kind": "sdist",
+      "path": "packages/antineutrino-safeguards/dist/antineutrino_safeguards-0.1.0.tar.gz",
+      "sha256": "7d8c21b6e87fbf1b07541ec0dc5cc7b1d5a2e5919ed6b52604c61f78c822bc03",
+      "size_bytes": 12220,
+      "url": null
+    }
+  ],
+  "validation": {
+    "lint": "/tmp/antinu_pkg_venv/bin/ruff check packages/antineutrino-safeguards/src packages/antineutrino-safeguards/tests packages/antineutrino-safeguards/examples",
+    "typecheck": "/tmp/antinu_pkg_venv/bin/mypy packages/antineutrino-safeguards/src",
+    "tests": "/tmp/antinu_pkg_venv/bin/pytest -q packages/antineutrino-safeguards/tests",
+    "smoke_install": "/tmp/antinu_smoke_venv/bin/pip install packages/antineutrino-safeguards/dist/antineutrino_safeguards-0.1.0-py3-none-any.whl",
+    "smoke_import": "/tmp/antinu_smoke_venv/bin/python -c \"from antineutrino_safeguards.simulation import FusionSafeguardsSimulator; from antineutrino_safeguards.config import MonitoringConfig; from antineutrino_safeguards.analysis import summarize_claims; records=FusionSafeguardsSimulator(MonitoringConfig(seeds=(1,), standoff_m=(25.0,))).run(); summarize_claims(records)\"",
+    "smoke_mcp": "/tmp/antinu_smoke_venv/bin/python -m antineutrino_safeguards.mcp_server --help"
+  }
+}
