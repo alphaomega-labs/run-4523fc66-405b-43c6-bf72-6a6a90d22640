@@ -1,0 +1,1204 @@
+{
+  "source_count": 36,
+  "generated_from": "knowledge/refs.jsonl",
+  "records": [
+    {
+      "id": "SRC001",
+      "title": "Long term remote reactor power and fuel composition monitoring using antineutrinos",
+      "url": "https://doi.org/10.1016/j.physletb.2025.139575",
+      "year": 2025,
+      "authors": [
+        "I. Alekseev",
+        "V. Belov",
+        "A. Bystryakov",
+        "M. Danilov",
+        "D. Filosofov",
+        "M. Fomina"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Defines or evaluates antineutrino-based safeguards/monitoring methodology for reactor operations.",
+        "Improves reactor antineutrino spectral or flux modeling used in detection inference.",
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Performance depends on site-specific backgrounds, detector calibration stability, and operational access constraints."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC002",
+      "title": "Comprehensive Measurement of the Reactor Antineutrino Spectrum and Flux at Daya Bay",
+      "url": "https://doi.org/10.1103/physrevlett.134.201802",
+      "year": 2025,
+      "authors": [
+        "Fengpeng An",
+        "Wenqi Bai",
+        "A. B. Balantekin",
+        "M. Bishai",
+        "S. Blyth",
+        "G. F. Cao"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Improves reactor antineutrino spectral or flux modeling used in detection inference.",
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Reactor antineutrino measurements contain exploitable information for model-based detection tasks."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Generalization can be limited by detector-systematics assumptions and nuclear data uncertainty."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ],
+      "key_equations": [
+        "P_{ee}\\approx 1-\\sin^22\\theta_{13}\\sin^2\\Delta_{31}-\\cos^4\\theta_{13}\\sin^22\\theta_{12}\\sin^2\\Delta_{21}"
+      ]
+    },
+    {
+      "id": "SRC003",
+      "title": "Comprehensive Measurement of the Reactor Antineutrino Spectrum and Flux at Daya Bay",
+      "url": "https://doi.org/10.48550/arxiv.2501.00746",
+      "year": 2025,
+      "authors": [
+        "Fengpeng An",
+        "Wenqi Bai",
+        "A. B. Balantekin",
+        "M. Bishai",
+        "S. Blyth",
+        "G. F. Cao"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Improves reactor antineutrino spectral or flux modeling used in detection inference.",
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Reactor antineutrino measurements contain exploitable information for model-based detection tasks."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Generalization can be limited by detector-systematics assumptions and nuclear data uncertainty."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC004",
+      "title": "<i>\u03b2</i> Decay Spectra Measurements for the Study of Reactors\u2019 Antineutrino Spectra",
+      "url": "https://doi.org/10.1051/epjconf/202532400023",
+      "year": 2025,
+      "authors": [
+        "G. A. Alcal\u00e1",
+        "A. Algora",
+        "M. Fallot",
+        "M. Estienne",
+        "V. Guadilla",
+        "W. Galletly"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Improves reactor antineutrino spectral or flux modeling used in detection inference.",
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Reactor antineutrino measurements contain exploitable information for model-based detection tasks."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Generalization can be limited by detector-systematics assumptions and nuclear data uncertainty."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC005",
+      "title": "Reactor antineutrino flux and anomaly",
+      "url": "https://doi.org/10.1016/j.ppnp.2024.104106",
+      "year": 2024,
+      "authors": [
+        "C. Zhang",
+        "X. Qian",
+        "M. Fallot"
+      ],
+      "assumptions": [
+        "Reactor antineutrino yield and spectral shape depend on isotope fractions and operational history.",
+        "Detector response and backgrounds are explicit nuisance parameters in inference."
+      ],
+      "contributions": [
+        "Provides antineutrino-modeling or monitoring evidence directly reusable in safeguards detectability studies.",
+        "Quantifies spectrum/flux prediction behavior and associated uncertainty drivers."
+      ],
+      "claims": [
+        "Antineutrino observables support model-based discrimination between baseline and perturbed reactor states."
+      ],
+      "conclusions": [
+        "Provides reusable quantitative evidence for reactor antineutrino monitoring and safeguards inference."
+      ],
+      "limitations": [
+        "Site-specific backgrounds and nuclear-data/model uncertainties remain major contributors to uncertainty."
+      ],
+      "future_work": [
+        "Cross-validate with independent detectors and broaden uncertainty stress tests for safeguards deployment."
+      ]
+    },
+    {
+      "id": "SRC006",
+      "title": "Dynamics of Energy Release in a Nuclear-Reactor Core",
+      "url": "https://doi.org/10.1134/s106377882470039x",
+      "year": 2024,
+      "authors": [
+        "V. I. Kope\u01d0kin",
+        "D. V. Popov",
+        "M. D. Skorokhvatov"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Improves reactor antineutrino spectral or flux modeling used in detection inference.",
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Generalization can be limited by detector-systematics assumptions and nuclear data uncertainty."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC007",
+      "title": "Assessing the Risk of Proliferation via Fissile Material Breeding in ARC-class Fusion Power Plants",
+      "url": "https://doi.org/10.48550/arxiv.2404.12451",
+      "year": 2024,
+      "authors": [
+        "Jenelle Ball",
+        "Ethan Peterson",
+        "R. Kemp",
+        "S. Ferry"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Blanket composition and neutron economy control fissile breeding rates and byproduct signatures."
+      ],
+      "contributions": [
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Fusion-adjacent blanket configurations can influence fissile breeding potential and monitoring requirements."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Results often depend on parameterized or conceptual fusion designs rather than proprietary plant details."
+      ],
+      "future_work": [
+        "Integrate material optimization with safeguards observability objectives and uncertainty propagation."
+      ],
+      "key_equations": [
+        "M_{Pu}(t)=\\int_0^t \\dot m_{Pu}(t')\\,dt'"
+      ]
+    },
+    {
+      "id": "SRC008",
+      "title": "Analysis of reactor burnup simulation uncertainties for antineutrino spectrum prediction",
+      "url": "https://doi.org/10.1140/epjp/s13360-024-05704-z",
+      "year": 2024,
+      "authors": [
+        "Andrea Barresi",
+        "M. Borghesi",
+        "Antonio Cammi",
+        "D. Chiesa",
+        "Lorenzo Loi",
+        "M. Nastasi"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Improves reactor antineutrino spectral or flux modeling used in detection inference."
+      ],
+      "claims": [
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Generalization can be limited by detector-systematics assumptions and nuclear data uncertainty."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC009",
+      "title": "Sensitivity of an Antineutrino Monitor for Remote Nuclear Reactor Discovery",
+      "url": "https://doi.org/10.1103/physrevapplied.20.034073",
+      "year": 2023,
+      "authors": [
+        "L. Kneale",
+        "S.T. Wilson",
+        "Tara Appleyard",
+        "J.C. Armitage",
+        "Neil R. Holland",
+        "M. Malek"
+      ],
+      "assumptions": [
+        "Reactor antineutrino yield and spectral shape depend on isotope fractions and operational history.",
+        "Detector response and backgrounds are explicit nuisance parameters in inference."
+      ],
+      "contributions": [
+        "Provides antineutrino-modeling or monitoring evidence directly reusable in safeguards detectability studies."
+      ],
+      "claims": [
+        "Antineutrino observables support model-based discrimination between baseline and perturbed reactor states."
+      ],
+      "conclusions": [
+        "Provides reusable quantitative evidence for reactor antineutrino monitoring and safeguards inference."
+      ],
+      "limitations": [
+        "Site-specific backgrounds and nuclear-data/model uncertainties remain major contributors to uncertainty."
+      ],
+      "future_work": [
+        "Cross-validate with independent detectors and broaden uncertainty stress tests for safeguards deployment."
+      ],
+      "key_equations": [
+        "TS=2\\log\\frac{\\mathcal{L}(\\hat\\theta_s+\\hat\\theta_b)}{\\mathcal{L}(\\hat\\theta_b)}"
+      ]
+    },
+    {
+      "id": "SRC010",
+      "title": "Scoping Studies for a Lead-Lithium-Cooled, Minor-Actinide-Burning, Fission-Fusion Hybrid Reactor Design",
+      "url": "https://doi.org/10.1080/00295639.2022.2154118",
+      "year": 2023,
+      "authors": [
+        "Joshua Ruegsegger",
+        "C. Moreno",
+        "Matthew Nyberg",
+        "Tim D. Bohm",
+        "Paul Wilson",
+        "Ben Lindley"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Blanket composition and neutron economy control fissile breeding rates and byproduct signatures."
+      ],
+      "contributions": [
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference.",
+        "Fusion-adjacent blanket configurations can influence fissile breeding potential and monitoring requirements."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Results often depend on parameterized or conceptual fusion designs rather than proprietary plant details."
+      ],
+      "future_work": [
+        "Integrate material optimization with safeguards observability objectives and uncertainty propagation."
+      ]
+    },
+    {
+      "id": "SRC011",
+      "title": "Reactor antineutrinos and novel application to real-time remote monitoring of nuclear reactors",
+      "url": "https://doi.org/10.1080/00223131.2023.2276418",
+      "year": 2023,
+      "authors": [
+        "Chikako Ishizuka",
+        "Karen Sasaki",
+        "Naoki Yamano",
+        "Tadashi Yoshida",
+        "Satoshi Chiba"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Defines or evaluates antineutrino-based safeguards/monitoring methodology for reactor operations.",
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Antineutrino observations can provide non-intrusive safeguards signals for reactor-state changes or diversion risk.",
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Performance depends on site-specific backgrounds, detector calibration stability, and operational access constraints."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC012",
+      "title": "Precision Measurement of Reactor Antineutrino Oscillation at Kilometer-Scale Baselines by Daya Bay",
+      "url": "https://doi.org/10.1103/physrevlett.130.161802",
+      "year": 2023,
+      "authors": [
+        "Fengpeng An",
+        "Wei Bai",
+        "A. B. Balantekin",
+        "M. Bishai",
+        "S. Blyth",
+        "G. F. Cao"
+      ],
+      "assumptions": [
+        "Reactor antineutrino yield and spectral shape depend on isotope fractions and operational history.",
+        "Detector response and backgrounds are explicit nuisance parameters in inference."
+      ],
+      "contributions": [
+        "Provides antineutrino-modeling or monitoring evidence directly reusable in safeguards detectability studies."
+      ],
+      "claims": [
+        "Antineutrino observables support model-based discrimination between baseline and perturbed reactor states."
+      ],
+      "conclusions": [
+        "Provides reusable quantitative evidence for reactor antineutrino monitoring and safeguards inference."
+      ],
+      "limitations": [
+        "Site-specific backgrounds and nuclear-data/model uncertainties remain major contributors to uncertainty."
+      ],
+      "future_work": [
+        "Cross-validate with independent detectors and broaden uncertainty stress tests for safeguards deployment."
+      ],
+      "key_equations": [
+        "\\chi^2=\\sum_j\\frac{(N_j^{obs}-N_j^{pred})^2}{\\sigma_j^2}+\\sum_k\\frac{\\eta_k^2}{\\sigma_{\\eta_k}^2}"
+      ]
+    },
+    {
+      "id": "SRC013",
+      "title": "Overview of TAO detector and its role for JUNO",
+      "url": "https://doi.org/10.1393/ncc/i2023-23119-5",
+      "year": 2023,
+      "authors": [
+        "Lombardo, Claudio"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Defines or evaluates antineutrino-based safeguards/monitoring methodology for reactor operations."
+      ],
+      "claims": [
+        "Antineutrino observations can provide non-intrusive safeguards signals for reactor-state changes or diversion risk."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Performance depends on site-specific backgrounds, detector calibration stability, and operational access constraints."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC014",
+      "title": "Improved Measurement of the Evolution of the Reactor Antineutrino Flux and Spectrum at Daya Bay",
+      "url": "https://doi.org/10.1103/physrevlett.130.211801",
+      "year": 2023,
+      "authors": [
+        "Fengpeng An",
+        "Wei Bai",
+        "A. B. Balantekin",
+        "M. Bishai",
+        "S. Blyth",
+        "G. F. Cao"
+      ],
+      "assumptions": [
+        "Reactor antineutrino yield and spectral shape depend on isotope fractions and operational history.",
+        "Detector response and backgrounds are explicit nuisance parameters in inference."
+      ],
+      "contributions": [
+        "Provides antineutrino-modeling or monitoring evidence directly reusable in safeguards detectability studies.",
+        "Quantifies spectrum/flux prediction behavior and associated uncertainty drivers."
+      ],
+      "claims": [
+        "Antineutrino observables support model-based discrimination between baseline and perturbed reactor states."
+      ],
+      "conclusions": [
+        "Provides reusable quantitative evidence for reactor antineutrino monitoring and safeguards inference."
+      ],
+      "limitations": [
+        "Site-specific backgrounds and nuclear-data/model uncertainties remain major contributors to uncertainty."
+      ],
+      "future_work": [
+        "Cross-validate with independent detectors and broaden uncertainty stress tests for safeguards deployment."
+      ],
+      "key_equations": [
+        "\\phi(E,t)=\\sum_i f_i(t)S_i(E)"
+      ]
+    },
+    {
+      "id": "SRC015",
+      "title": "Examination of decay heat measurements and their relevance for understanding the origin of the reactor antineutrino anomaly",
+      "url": "https://doi.org/10.1103/physrevc.108.024617",
+      "year": 2023,
+      "authors": [
+        "A. A. Sonzogni",
+        "R. J. Lorek",
+        "A. Mattera",
+        "E. A. McCutchan"
+      ],
+      "assumptions": [
+        "Reactor antineutrino yield and spectral shape depend on isotope fractions and operational history.",
+        "Detector response and backgrounds are explicit nuisance parameters in inference."
+      ],
+      "contributions": [
+        "Provides antineutrino-modeling or monitoring evidence directly reusable in safeguards detectability studies."
+      ],
+      "claims": [
+        "Antineutrino observables support model-based discrimination between baseline and perturbed reactor states."
+      ],
+      "conclusions": [
+        "Provides reusable quantitative evidence for reactor antineutrino monitoring and safeguards inference."
+      ],
+      "limitations": [
+        "Site-specific backgrounds and nuclear-data/model uncertainties remain major contributors to uncertainty."
+      ],
+      "future_work": [
+        "Cross-validate with independent detectors and broaden uncertainty stress tests for safeguards deployment."
+      ]
+    },
+    {
+      "id": "SRC016",
+      "title": "Antineutrino detection concepts for safeguarding spent nuclear fuel",
+      "url": "https://doi.org/10.5194/sand-2-203-2023",
+      "year": 2023,
+      "authors": [
+        "Y. J. Schnellbach",
+        "T. Radermacher",
+        "Irmgard Niemeyer",
+        "S. Roth",
+        "Malte G\u00f6ttsche"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Defines or evaluates antineutrino-based safeguards/monitoring methodology for reactor operations.",
+        "Improves reactor antineutrino spectral or flux modeling used in detection inference.",
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Antineutrino observations can provide non-intrusive safeguards signals for reactor-state changes or diversion risk.",
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Performance depends on site-specific backgrounds, detector calibration stability, and operational access constraints."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC017",
+      "title": "Employing antineutrino detectors to safeguard future nuclear reactors from diversions",
+      "url": "https://doi.org/10.1038/s41467-019-11434-z",
+      "year": 2019,
+      "authors": [
+        "Christopher Stewart",
+        "Abdalla Abou Jaoude",
+        "Anna Erickson"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Defines or evaluates antineutrino-based safeguards/monitoring methodology for reactor operations."
+      ],
+      "claims": [
+        "Antineutrino observations can provide non-intrusive safeguards signals for reactor-state changes or diversion risk.",
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Performance depends on site-specific backgrounds, detector calibration stability, and operational access constraints."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ],
+      "key_equations": [
+        "\\Lambda_t=\\log\\frac{p(x_{1:t}|H_1)}{p(x_{1:t}|H_0)}"
+      ]
+    },
+    {
+      "id": "SRC018",
+      "title": "Online monitoring of the Osiris reactor with the Nucifer neutrino detector",
+      "url": "https://doi.org/10.1103/physrevd.93.112006",
+      "year": 2016,
+      "authors": [
+        "G. Boireau",
+        "L. Bouvet",
+        "A. P. Collin",
+        "G. Coulloux",
+        "M. Cribier",
+        "H. Deschamp"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Defines or evaluates antineutrino-based safeguards/monitoring methodology for reactor operations.",
+        "Improves reactor antineutrino spectral or flux modeling used in detection inference.",
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Antineutrino observations can provide non-intrusive safeguards signals for reactor-state changes or diversion risk.",
+        "Fusion-adjacent blanket configurations can influence fissile breeding potential and monitoring requirements."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Performance depends on site-specific backgrounds, detector calibration stability, and operational access constraints."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC019",
+      "title": "Neutron transport-burnup code MCORGS and its application in fusion fission hybrid blanket conceptual research",
+      "url": "https://doi.org/10.1142/s2010194516602362",
+      "year": 2016,
+      "authors": [
+        "Xueming Shi",
+        "Xianjue Peng"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Blanket composition and neutron economy control fissile breeding rates and byproduct signatures."
+      ],
+      "contributions": [
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference.",
+        "Fusion-adjacent blanket configurations can influence fissile breeding potential and monitoring requirements."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Results often depend on parameterized or conceptual fusion designs rather than proprietary plant details."
+      ],
+      "future_work": [
+        "Integrate material optimization with safeguards observability objectives and uncertainty propagation."
+      ]
+    },
+    {
+      "id": "SRC020",
+      "title": "Antineutrino-based safeguards for ultra-high burnup fast reactors",
+      "url": "http://hdl.handle.net/1853/55024",
+      "year": 2016,
+      "authors": [
+        "C. L. Stewart"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Defines or evaluates antineutrino-based safeguards/monitoring methodology for reactor operations.",
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Antineutrino observations can provide non-intrusive safeguards signals for reactor-state changes or diversion risk.",
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Performance depends on site-specific backgrounds, detector calibration stability, and operational access constraints."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC021",
+      "title": "Corrections to and Applications of the Antineutrino Spectrum Generated by Nuclear Reactors",
+      "url": "http://hdl.handle.net/10919/80031",
+      "year": 2015,
+      "authors": [
+        "P. Jaffke"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Defines or evaluates antineutrino-based safeguards/monitoring methodology for reactor operations.",
+        "Improves reactor antineutrino spectral or flux modeling used in detection inference."
+      ],
+      "claims": [
+        "Antineutrino observations can provide non-intrusive safeguards signals for reactor-state changes or diversion risk.",
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference.",
+        "Fusion-adjacent blanket configurations can influence fissile breeding potential and monitoring requirements."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Performance depends on site-specific backgrounds, detector calibration stability, and operational access constraints."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC022",
+      "title": "Antineutrino Reactor Safeguards: A Case Study of the DPRK 1994 Nuclear Crisis",
+      "url": "https://doi.org/10.1080/08929882.2015.996076",
+      "year": 2015,
+      "authors": [
+        "Eric Christensen",
+        "Patrick Huber",
+        "P. Jaffke"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Defines or evaluates antineutrino-based safeguards/monitoring methodology for reactor operations."
+      ],
+      "claims": [
+        "Antineutrino observations can provide non-intrusive safeguards signals for reactor-state changes or diversion risk.",
+        "Fusion-adjacent blanket configurations can influence fissile breeding potential and monitoring requirements."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Performance depends on site-specific backgrounds, detector calibration stability, and operational access constraints."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC023",
+      "title": "Reactor antineutrino monitoring with a plastic scintillator array as a new safeguards method",
+      "url": "https://doi.org/10.1016/j.nima.2014.04.065",
+      "year": 2014,
+      "authors": [
+        "S. Oguri",
+        "Yoshihiro Kuroda",
+        "Yasuyuki Kato",
+        "Rie Nakata",
+        "Yoshiyuki Inoue",
+        "Chikara Ito"
+      ],
+      "assumptions": [
+        "Reactor antineutrino yield and spectral shape depend on isotope fractions and operational history.",
+        "Detector response and backgrounds are explicit nuisance parameters in inference."
+      ],
+      "contributions": [
+        "Provides antineutrino-modeling or monitoring evidence directly reusable in safeguards detectability studies."
+      ],
+      "claims": [
+        "Antineutrino observables support model-based discrimination between baseline and perturbed reactor states."
+      ],
+      "conclusions": [
+        "Provides reusable quantitative evidence for reactor antineutrino monitoring and safeguards inference."
+      ],
+      "limitations": [
+        "Site-specific backgrounds and nuclear-data/model uncertainties remain major contributors to uncertainty."
+      ],
+      "future_work": [
+        "Cross-validate with independent detectors and broaden uncertainty stress tests for safeguards deployment."
+      ],
+      "key_equations": [
+        "R_{\\bar\\nu}(t)\\propto \\frac{W_{th}(t)}{L^2}\\sum_i f_i(t)\\langle\\sigma_i\\rangle"
+      ]
+    },
+    {
+      "id": "SRC024",
+      "title": "Experimental parameters for a reactor antineutrino experiment at very short baselines",
+      "url": "https://doi.org/10.1103/physrevd.87.073008",
+      "year": 2013,
+      "authors": [
+        "K. M. Heeger",
+        "M. N. Tobin",
+        "B. R. Littlejohn",
+        "H. P. Mumm"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Defines or evaluates antineutrino-based safeguards/monitoring methodology for reactor operations.",
+        "Improves reactor antineutrino spectral or flux modeling used in detection inference.",
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Antineutrino observations can provide non-intrusive safeguards signals for reactor-state changes or diversion risk."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Performance depends on site-specific backgrounds, detector calibration stability, and operational access constraints."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC025",
+      "title": "Burnup Analysis of Thorium-Uranium Based Molten Salt Blanket in a Fusion-Fission Hybrid Reactor",
+      "url": "https://doi.org/10.13182/fst13-a19145",
+      "year": 2013,
+      "authors": [
+        "Jing Zhao",
+        "Yang Yongwei",
+        "Sicong Xiao",
+        "Zhiwei Zhou"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Blanket composition and neutron economy control fissile breeding rates and byproduct signatures."
+      ],
+      "contributions": [
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference.",
+        "Fusion-adjacent blanket configurations can influence fissile breeding potential and monitoring requirements."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Results often depend on parameterized or conceptual fusion designs rather than proprietary plant details."
+      ],
+      "future_work": [
+        "Integrate material optimization with safeguards observability objectives and uncertainty propagation."
+      ]
+    },
+    {
+      "id": "SRC026",
+      "title": "The neutronics studies of fusion fission hybrid power reactor",
+      "url": "https://doi.org/10.1063/1.4706879",
+      "year": 2012,
+      "authors": [
+        "Youqi Zheng",
+        "Hongchun Wu",
+        "Tiejun Zu",
+        "Chao Yang",
+        "Liangzhi Cao"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Blanket composition and neutron economy control fissile breeding rates and byproduct signatures."
+      ],
+      "contributions": [
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference.",
+        "Fusion-adjacent blanket configurations can influence fissile breeding potential and monitoring requirements."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Results often depend on parameterized or conceptual fusion designs rather than proprietary plant details."
+      ],
+      "future_work": [
+        "Integrate material optimization with safeguards observability objectives and uncertainty propagation."
+      ]
+    },
+    {
+      "id": "SRC027",
+      "title": "Antineutrino monitoring of burning mixed oxide plutonium fuels",
+      "url": "https://doi.org/10.1103/physrevc.85.024617",
+      "year": 2012,
+      "authors": [
+        "A. C. Hayes",
+        "Holly Trellue",
+        "Michael Martin Nieto",
+        "W.B. Wilson"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Defines or evaluates antineutrino-based safeguards/monitoring methodology for reactor operations."
+      ],
+      "claims": [
+        "Antineutrino observations can provide non-intrusive safeguards signals for reactor-state changes or diversion risk.",
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference.",
+        "Fusion-adjacent blanket configurations can influence fissile breeding potential and monitoring requirements."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Performance depends on site-specific backgrounds, detector calibration stability, and operational access constraints."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC028",
+      "title": "A fission-fusion hybrid reactor in steady-state L-mode tokamak configuration with natural uranium",
+      "url": "https://doi.org/10.1063/1.4706872",
+      "year": 2012,
+      "authors": [
+        "Mark W. Reed",
+        "R. R. Parker",
+        "Benoit Forget"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Blanket composition and neutron economy control fissile breeding rates and byproduct signatures."
+      ],
+      "contributions": [
+        "Improves reactor antineutrino spectral or flux modeling used in detection inference.",
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference.",
+        "Fusion-adjacent blanket configurations can influence fissile breeding potential and monitoring requirements."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Results often depend on parameterized or conceptual fusion designs rather than proprietary plant details."
+      ],
+      "future_work": [
+        "Integrate material optimization with safeguards observability objectives and uncertainty propagation."
+      ]
+    },
+    {
+      "id": "SRC029",
+      "title": "Reactor antineutrino anomaly",
+      "url": "https://doi.org/10.1103/physrevd.83.073006",
+      "year": 2011,
+      "authors": [
+        "G. Mention",
+        "M. Fechner",
+        "Th. Lasserre",
+        "Th. A. Mueller",
+        "D. Lhuillier",
+        "M. Cribier"
+      ],
+      "assumptions": [
+        "Reactor antineutrino yield and spectral shape depend on isotope fractions and operational history.",
+        "Detector response and backgrounds are explicit nuisance parameters in inference."
+      ],
+      "contributions": [
+        "Provides antineutrino-modeling or monitoring evidence directly reusable in safeguards detectability studies.",
+        "Quantifies spectrum/flux prediction behavior and associated uncertainty drivers."
+      ],
+      "claims": [
+        "Antineutrino observables support model-based discrimination between baseline and perturbed reactor states."
+      ],
+      "conclusions": [
+        "Provides reusable quantitative evidence for reactor antineutrino monitoring and safeguards inference."
+      ],
+      "limitations": [
+        "Site-specific backgrounds and nuclear-data/model uncertainties remain major contributors to uncertainty."
+      ],
+      "future_work": [
+        "Cross-validate with independent detectors and broaden uncertainty stress tests for safeguards deployment."
+      ],
+      "key_equations": [
+        "R=\\frac{N_{obs}}{N_{pred}}"
+      ]
+    },
+    {
+      "id": "SRC030",
+      "title": "Improved predictions of reactor antineutrino spectra",
+      "url": "https://doi.org/10.1103/physrevc.83.054615",
+      "year": 2011,
+      "authors": [
+        "Th. A. Mueller",
+        "D. Lhuillier",
+        "M. Fallot",
+        "A. Letourneau",
+        "S. Cormon",
+        "M. Fechner"
+      ],
+      "assumptions": [
+        "Reactor antineutrino yield and spectral shape depend on isotope fractions and operational history.",
+        "Detector response and backgrounds are explicit nuisance parameters in inference."
+      ],
+      "contributions": [
+        "Provides antineutrino-modeling or monitoring evidence directly reusable in safeguards detectability studies.",
+        "Quantifies spectrum/flux prediction behavior and associated uncertainty drivers."
+      ],
+      "claims": [
+        "Antineutrino observables support model-based discrimination between baseline and perturbed reactor states."
+      ],
+      "conclusions": [
+        "Provides reusable quantitative evidence for reactor antineutrino monitoring and safeguards inference."
+      ],
+      "limitations": [
+        "Site-specific backgrounds and nuclear-data/model uncertainties remain major contributors to uncertainty."
+      ],
+      "future_work": [
+        "Cross-validate with independent detectors and broaden uncertainty stress tests for safeguards deployment."
+      ],
+      "key_equations": [
+        "S_{tot}(E_{\\bar\\nu})=\\sum_i f_i S_i(E_{\\bar\\nu})",
+        "N_{det}=\\frac{N_p}{4\\pi L^2}\\int \\epsilon(E)\\sigma_{IBD}(E)S_{tot}(E)\\,dE"
+      ]
+    },
+    {
+      "id": "SRC031",
+      "title": "Determination of antineutrino spectra from nuclear reactors",
+      "url": "https://doi.org/10.1103/physrevc.84.024617",
+      "year": 2011,
+      "authors": [
+        "Patrick Huber"
+      ],
+      "assumptions": [
+        "Reactor antineutrino yield and spectral shape depend on isotope fractions and operational history.",
+        "Detector response and backgrounds are explicit nuisance parameters in inference."
+      ],
+      "contributions": [
+        "Provides antineutrino-modeling or monitoring evidence directly reusable in safeguards detectability studies.",
+        "Quantifies spectrum/flux prediction behavior and associated uncertainty drivers."
+      ],
+      "claims": [
+        "Antineutrino observables support model-based discrimination between baseline and perturbed reactor states."
+      ],
+      "conclusions": [
+        "Provides reusable quantitative evidence for reactor antineutrino monitoring and safeguards inference."
+      ],
+      "limitations": [
+        "Site-specific backgrounds and nuclear-data/model uncertainties remain major contributors to uncertainty."
+      ],
+      "future_work": [
+        "Cross-validate with independent detectors and broaden uncertainty stress tests for safeguards deployment."
+      ],
+      "key_equations": [
+        "S_k(E_\\nu)=\\exp\\left(\\sum_{p=0}^{5}a_{p,k}E_\\nu^p\\right)"
+      ]
+    },
+    {
+      "id": "SRC032",
+      "title": "Advances toward a transportable antineutrino detector system for reactor monitoring and safeguards",
+      "url": "https://doi.org/10.1109/animma.2011.6172887",
+      "year": 2011,
+      "authors": [
+        "D. Reyna",
+        "A. Bernstein",
+        "J.C. Lund",
+        "Scott D. Kiff",
+        "Belkis Cabrera-Palmer",
+        "N. S. Bowden"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Defines or evaluates antineutrino-based safeguards/monitoring methodology for reactor operations.",
+        "Improves reactor antineutrino spectral or flux modeling used in detection inference."
+      ],
+      "claims": [
+        "Antineutrino observations can provide non-intrusive safeguards signals for reactor-state changes or diversion risk.",
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Performance depends on site-specific backgrounds, detector calibration stability, and operational access constraints."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC033",
+      "title": "Preliminary Neutronics Calculation of Thorium-Based and MA Transmutation Breeding Blanket for Hybrid Fusion-Fission Reactor",
+      "url": "https://en.cnki.com.cn/Article_en/CJFDTOTAL-YZJS201001011.htm",
+      "year": 2010,
+      "authors": [
+        "Shi Sheng-chun"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Blanket composition and neutron economy control fissile breeding rates and byproduct signatures."
+      ],
+      "contributions": [
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference.",
+        "Fusion-adjacent blanket configurations can influence fissile breeding potential and monitoring requirements."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Results often depend on parameterized or conceptual fusion designs rather than proprietary plant details."
+      ],
+      "future_work": [
+        "Integrate material optimization with safeguards observability objectives and uncertainty propagation."
+      ]
+    },
+    {
+      "id": "SRC034",
+      "title": "Use of Antineutrino Detectors for Nuclear Reactor Safeguards Effectiveness Assessment",
+      "url": "https://digital.library.unt.edu/ark:/67531/metadc875522/",
+      "year": 2006,
+      "authors": [
+        "A. Bernstein",
+        "H.E. Lambert",
+        "H A Elayat",
+        "W.J. O'Connell",
+        "P.E. Rexroth",
+        "George Thomas Baldwin"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Defines or evaluates antineutrino-based safeguards/monitoring methodology for reactor operations.",
+        "Improves reactor antineutrino spectral or flux modeling used in detection inference."
+      ],
+      "claims": [
+        "Antineutrino observations can provide non-intrusive safeguards signals for reactor-state changes or diversion risk."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Performance depends on site-specific backgrounds, detector calibration stability, and operational access constraints."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC035",
+      "title": "Nuclear reactor safeguards and monitoring with antineutrino detectors",
+      "url": "https://doi.org/10.1063/1.1452775",
+      "year": 2002,
+      "authors": [
+        "A. Bernstein",
+        "Y. Wang",
+        "G. Gratta",
+        "T. West"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Inverse beta decay detection efficiency, background, and standoff distance can be parameterized."
+      ],
+      "contributions": [
+        "Defines or evaluates antineutrino-based safeguards/monitoring methodology for reactor operations.",
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Antineutrino observations can provide non-intrusive safeguards signals for reactor-state changes or diversion risk.",
+        "Fusion-adjacent blanket configurations can influence fissile breeding potential and monitoring requirements."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Performance depends on site-specific backgrounds, detector calibration stability, and operational access constraints."
+      ],
+      "future_work": [
+        "Validate with multi-detector, multi-standoff deployments under realistic background drift."
+      ]
+    },
+    {
+      "id": "SRC036",
+      "title": "Tritium breeding in a fusion--fission hybrid breeder reactor",
+      "url": "https://doi.org/10.2172/6531756",
+      "year": 1978,
+      "authors": [
+        "Janie McCowan"
+      ],
+      "assumptions": [
+        "Reactor thermal power and fuel evolution are modeled as observable or bounded inputs.",
+        "Blanket composition and neutron economy control fissile breeding rates and byproduct signatures."
+      ],
+      "contributions": [
+        "Provides fusion-fission blanket/breeding analysis relevant to covert fissile production pathways."
+      ],
+      "claims": [
+        "Fuel-composition evolution measurably alters detected antineutrino spectra and can be used for inference.",
+        "Fusion-adjacent blanket configurations can influence fissile breeding potential and monitoring requirements."
+      ],
+      "conclusions": [
+        "Source provides evidence relevant to antineutrino detectability and/or fissile pathway assessment under modeled conditions."
+      ],
+      "limitations": [
+        "Results often depend on parameterized or conceptual fusion designs rather than proprietary plant details."
+      ],
+      "future_work": [
+        "Integrate material optimization with safeguards observability objectives and uncertainty propagation."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Prior Family,Calibration Violation Rate,FAR Inflation 95th Percentile,Median Detection Delay (days)
+M_conservative_mixture,1.0,1.3188523124978837,7.413752528776491
+M_daya_bay_calibrated,0.8097222222222222,1.1830319977322932,6.576681885226263
+M_huber,1.0,1.268022990448597,7.0831854754366645
+M_mueller,1.0,1.2936862769928017,7.253917021206242

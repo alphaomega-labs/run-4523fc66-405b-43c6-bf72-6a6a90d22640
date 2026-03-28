@@ -1,0 +1,37 @@
+{
+  "id": "EXP-ED-01",
+  "seeds": [101, 211, 307, 401, 503],
+  "baselines": [
+    "BL1 Single-prior likelihood-ratio detector",
+    "BL2 Count-only SPRT with nominal assumptions",
+    "BL3 Nuisance-penalized chi-square spectral fit",
+    "BL4 Fixed-threshold TS detector without minimax prior calibration",
+    "BL5 Rate-only CUSUM with FAR matching"
+  ],
+  "metrics": [
+    "FAR_at_target_alpha",
+    "MedianDetectionDelay",
+    "TPR_at_alpha_1e-3",
+    "CalibrationViolationRate",
+    "PriorLeaveOneOutDelayRatio"
+  ],
+  "sweep_params": {
+    "alpha_target": ["1e-2", "5e-3", "1e-3"],
+    "background_drift_slope": ["0.0/day", "0.01/day", "0.03/day"],
+    "energy_resolution_pct": ["4", "6", "8", "10"],
+    "prior_family_id": ["M_huber", "M_mueller", "M_daya_bay_calibrated", "M_conservative_mixture"],
+    "standoff_m": ["15", "25", "40", "60"]
+  },
+  "acceptance_criteria": [
+    "At matched FAR=1e-3, median delay <= single-prior baseline in >=70% of evaluated regimes.",
+    "CalibrationViolationRate <= 0.05 across prior families and seeds.",
+    "Leave-one-prior-out FAR inflation <= 1.25x relative to in-family calibration."
+  ],
+  "artifact_expectations": [
+    {"kind": "figure", "min_count": 2, "description": "FAR-delay and leave-one-prior-out sensitivity curves"},
+    {"kind": "table", "min_count": 2, "description": "Calibration and FAR coverage by prior family"},
+    {"kind": "code", "min_count": 1, "description": "Reproducible threshold calibration pipeline scripts"},
+    {"kind": "dataset", "min_count": 1, "description": "Scenario manifests and run-level summary outputs"}
+  ],
+  "uncertainty_method": "Seeded bootstrap confidence intervals over delay and FAR metrics."
+}

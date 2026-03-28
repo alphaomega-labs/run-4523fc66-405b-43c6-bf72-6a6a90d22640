@@ -1,0 +1,104 @@
+\clearpage\phantomsection\label{sec:appendix_start}
+
+\section{Extended Notation and Equation Provenance}\label{sec:appendix_notation}
+This appendix consolidates symbol definitions, equation provenance, and equation-to-role mapping. The goal is to make it unambiguous which expressions are reused conventions and which are manuscript-defined operators. The separation is important for reproducibility and for downstream critique, because calibration and robustness claims depend on specific assumptions that are easy to blur in compressed main-text exposition.
+
+Table~\ref{tab:notation} defines the symbols used throughout \secref{sec:problem_setting} and \secref{sec:method}. Reused components originate from reactor-spectrum, detector-response, and safeguards decision-statistics lineages \citep{SRC014,SRC030,SRC023,SRC009,SRC017}; manuscript-defined components are the contradiction-aware threshold operator, information-decomposed MDS ranking expression, and finite robust co-design stability functional.
+
+\begin{table}[h]
+\caption{Notation glossary with provenance tags. Reused notation maps directly to source-backed conventions, while manuscript-defined notation identifies this paper's formal extensions and audit quantities.}
+\label{tab:notation}
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.1}
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lll}
+\hline
+Symbol & Meaning & Provenance \\
+\hline
+$\phi(E,t)$ & Mixed antineutrino source spectrum & Reused \citep{SRC014,SRC030} \\
+$f_i(t),S_i(E)$ & Isotope fraction and template spectrum & Reused \citep{SRC014,SRC015} \\
+$\lambda(t)$ & Expected detector count intensity & Adapted from reused detector model \citep{SRC023,SRC009} \\
+$\epsilon,\sigma_{\mathrm{IBD}},L,b(t)$ & Efficiency, cross section, standoff, background & Reused \citep{SRC001,SRC023} \\
+$\Lambda_t^{(m)}$ & Prior-indexed sequential log-likelihood ratio & Reused \citep{SRC009,SRC017} \\
+$F(\tau)$ & Worst-prior false-alarm map & Manuscript-defined \\
+$\tau^\star$ & Robust threshold operator & Manuscript-defined \\
+$I_m^{\mathrm{count}},I_m^{\mathrm{shape}}$ & Count/shape information channels & Manuscript-defined decomposition \\
+$\mathrm{MDS}_m$ & Minimum detectable diversion scale & Manuscript-defined operational definition \\
+$\mathcal{C},\Omega$ & Candidate set and regime set & Manuscript-defined finite approximation \\
+$J_\omega(c)$ & Mission-loss vector & Manuscript-defined \\
+$V(c)$ & Worst-regime scalarized loss & Manuscript-defined \\
+$\mathrm{Stab}(c)$ & Fraction of regimes meeting FAR stress tolerance & Manuscript-defined \\
+\hline
+\end{tabular}%
+}
+\end{table}
+
+\section{Extended Derivations and Proof Completeness}\label{sec:appendix_proofs}
+\subsection{Threshold-Operator Derivation Details}
+Theorem~\ref{thm:tau} in the main text states existence and conservative control for the robust threshold operator. Here we make explicit how finite prior-family contradiction enters the argument. Let
+\[
+F(\tau)=\max_{m\in\mathcal{M}} F_m(\tau),\quad F_m(\tau)=\Pr_{m,H_0}(T_\tau<\infty).
+\]
+If each $F_m$ is nonincreasing, then so is their pointwise maximum. If each $F_m$ is right-continuous, then the finite maximum remains right-continuous. Hence the regularity assumptions in Theorem~\ref{thm:tau} can be verified componentwise. This reduction is useful in implementation because each prior family member can be checked independently, and violations can be logged with family-specific diagnostics rather than a single opaque aggregate failure.
+
+The right-limit statement is intentionally conservative. It does not require exact equality $F(\tau^\star)=\alpha$ and therefore accommodates discretized threshold grids and finite-sample estimation noise. In deployment terms, this is preferable to aggressive threshold interpolation when the contradiction family is wide.
+
+\subsection{MDS Criterion and Approximation Domain}
+Theorem~\ref{thm:mds} gives strict MDS improvement when $I_m^{\mathrm{shape}}>0$. The key approximation assumption is local asymptotic normality of the test statistic under local perturbations. In finite data, this assumption can degrade in low-count, strongly skewed, or heavy-tail slices. For that reason, our implementation treats Theorem~\ref{thm:mds} as a ranking criterion to be cross-checked against simulation outcomes rather than as a substitute for simulation.
+
+A practical implication follows. If estimated $I_m^{\mathrm{shape}}\le 0$ in some slices, the strict inequality precondition is violated and the detectability claim for those slices should be downgraded to mixed. This policy was encoded in the symbolic audit hooks and contributes to the claim-status assignments reported in \secref{sec:results}.
+
+\subsection{Robust Co-Design Objective and Weight Sensitivity}
+Theorem~\ref{thm:codesign} ensures existence for finite $\mathcal{C}$ and $\Omega$, but it does not guarantee uniqueness or policy-invariant ranking. Let
+\[
+V_w(c)=\max_{\omega\in\Omega} w^\top J_\omega(c).
+\]
+Different admissible weights $w$ can induce different minimizers. This is not a flaw; it encodes mission priorities. We therefore interpret the selected co-design as conditionally optimal for the declared weight semantics and require sensitivity checks before strong deployment guidance.
+
+The stability score in \eqref{eq:stability_score} remains bounded by construction, but high values should not be read as full safety guarantees. The score reflects only the tested regime set; extending $\Omega$ can reduce stability. This is why external-validity caveats are explicit in \secref{sec:limitations}.
+
+\section{Reproducibility and Implementation Details}\label{sec:appendix_reproducibility}
+\subsection{Execution Configuration}
+The executed benchmark used five seeds $\{101,211,307,401,503\}$, six methods (one robust proposed method plus five baselines), three FAR targets, four prior families, three drift settings, four energy-resolution settings, and four standoff levels. This yields $5\times 6\times 3\times 4\times 3\times 4\times 4=17{,}280$ runs and 576 unique regime identifiers.
+
+All runs were CPU-only and executed in a single reproducible package workflow. Linting, type checks, and tests were run in addition to simulation execution. Symbolic checks were generated as part of the same run package and linked to the claim-evidence table. Uncertainty intervals for delay/FAR summaries used seeded bootstrap aggregation, consistent with the design specification.
+
+\subsection{Acceptance Criteria and Audit Hooks}
+The acceptance policy consisted of three criteria: delay win-rate threshold, calibration-violation threshold, and leave-one-prior-out FAR inflation threshold. We treat the first as a detectability effectiveness criterion and the latter two as robustness closure criteria. This distinction is operationally useful because one can pass detectability while failing robust calibration, exactly as observed in the executed evidence.
+
+Failure hooks were defined before analysis: monotonicity failures in threshold curves, non-positive shape-information slices for MDS ranking, and stability-bound violations in co-design diagnostics. Predefining hooks avoids post-hoc rationalization and supports transparent mixed-claim reporting.
+
+\subsection{Approximation and Numerical Caveats}
+Three caveats are relevant for replication. First, local asymptotic assumptions underlying the closed-form MDS criterion are approximations; replication should include finite-sample diagnostics. Second, discretized candidate and regime sets guarantee optimization existence but can miss off-grid optima. Third, contradiction-aware priors are bounded by design; out-of-family behavior can still violate nominal FAR control.
+
+These caveats do not invalidate the current results. They define the conditions under which extrapolation should be restrained and indicate which follow-up experiments most efficiently reduce uncertainty.
+
+\section{Additional Diagnostics and Negative Results}\label{sec:appendix_negative}
+The negative-result ledger is central to interpretation. A total of 407 robust-method slices exceeded the FAR inflation stress threshold, corresponding to a rate of 14.13\%. Concentration patterns were not uniform; high drift and larger standoff regions were over-represented. This structure supports targeted recalibration and transfer-focused ablations rather than global threshold tightening.
+
+We also observed substantial prior-family heterogeneity in calibration behavior. One family approached stress tolerance, while three families remained above it. This evidence supports contradiction-aware adaptation and argues against fixed single-prior deployment policy in uncertain settings.
+
+Finally, the symbolic checks provide an important but bounded reassurance: all theorem-linked symbolic identities and inequalities passed. Symbolic closure confirms internal consistency of formal statements and implementation logic, but empirical stress outcomes remain the decisive criterion for operational claims.
+
+\section{Claim-to-Evidence Summary Table}\label{sec:appendix_claims}
+\begin{table}[h]
+\caption{Claim-evidence closure summary. Each claim is linked to formal or empirical evidence and to caveats when support is mixed. This table is intended to prevent ambiguity between supported performance gains and unresolved robustness edges.}
+\label{tab:claim_evidence_appendix}
+\centering
+\footnotesize
+\renewcommand{\arraystretch}{1.1}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{p{0.16\linewidth}p{0.18\linewidth}p{0.27\linewidth}p{0.31\linewidth}}
+\hline
+Claim role & Support status & Primary evidence & Caveat \\
+\hline
+Robust calibration under prior contradiction & Mixed & Threshold theorem, monotonicity checks, delay win-rate evidence & Calibration violation and leave-one-prior-out FAR inflation exceed stress thresholds in a nontrivial regime subset. \\
+Joint count-shape detectability improvement & Supported & Strict MDS inequality condition and observed delay-ratio improvement against fixed-threshold comparator & Evidence is synthetic and open-parameterized; external deployment transfer remains to be validated. \\
+Robust co-design transfer stability & Mixed & Finite robust optimality proof, bounded stability theorem, symbolic stability check & Hard-regime transfer degradation remains above target, so deployment guidance remains provisional. \\
+\hline
+\end{tabular}
+\end{table}
+
+The table above is intentionally conservative. It confirms that strong claims are retained only where empirical and formal evidence agree and that unresolved edges are carried forward as explicit future experiments rather than implied away.

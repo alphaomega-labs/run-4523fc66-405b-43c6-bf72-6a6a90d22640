@@ -1,0 +1,87 @@
+{
+  "acceptance_checks": {
+    "calibration_violation_le_0p05": false,
+    "delay_win_rate_ge_0p70": true,
+    "loo_inflation_p95_le_1p25": false
+  },
+  "appendix_artifacts": {
+    "DMM-C1": "paper/tables/exp_ed_01_calibration_by_prior.csv",
+    "DMM-C2": "paper/tables/exp_ed_01_delay_ratio_by_regime.csv",
+    "DMM-C3": "paper/figures/exp_ed_01_transfer_degradation.pdf",
+    "sympy": "experiments/EXP-ED-01/outputs/sympy/sympy_report.md"
+  },
+  "claim_metrics": {
+    "DMM-C1": {
+      "calibration_violation_rate": 0.9524305555555556,
+      "delay_win_rate": 0.9965277777777778,
+      "far_inflation_p95": 1.2871472437242784
+    },
+    "DMM-C2": {
+      "delay_ratio_median_pm_over_bl4": 0.6943264616705991,
+      "far_residual_mean_pm_vs_alpha": 0.17328645000862902
+    },
+    "DMM-C3": {
+      "transfer_degradation_ratio_hard_over_easy": 1.540173914965872
+    }
+  },
+  "datasets": {
+    "aggregated_metrics": "paper/data/exp_ed_01_aggregated_metrics.csv",
+    "negative_far_inflation_cases": "experiments/EXP-ED-01/outputs/data/negative_far_inflation_cases.csv",
+    "run_metrics": "experiments/EXP-ED-01/outputs/data/run_metrics.csv"
+  },
+  "experiment_id": "EXP-ED-01",
+  "figure_captions": {
+    "paper/figures/exp_ed_01_far_delay_frontier.pdf": {
+      "key_takeaways": [
+        "Lower alpha targets increase delay but remain stable across seeds.",
+        "Standoff increases delay with smooth monotonic frontier behavior."
+      ],
+      "panels": {
+        "A": "Median FAR-delay frontier across standoff distances for the proposed method.",
+        "B": "Bootstrap 95% CI for detection delay over alpha targets."
+      },
+      "uncertainty": "95% bootstrap confidence interval over seeded median delay estimates.",
+      "variables": {
+        "Detection Delay": "days to alarm crossing under matched FAR calibration",
+        "FAR": "False alarm rate probability",
+        "alpha_target": "Target FAR level used for comparator fairness"
+      }
+    },
+    "paper/figures/exp_ed_01_transfer_degradation.pdf": {
+      "key_takeaways": [
+        "Worst degradation appears jointly at high drift and long standoff.",
+        "Conservative prior family shows largest inflation pressure."
+      ],
+      "panels": {
+        "A": "Transfer degradation heatmap by background drift and standoff.",
+        "B": "Leave-one-prior-out FAR inflation medians by prior family."
+      },
+      "uncertainty": "Bar heights are medians over all seeds and nuisance settings; threshold line marks 1.25x stress criterion.",
+      "variables": {
+        "FAR inflation ratio": "observed FAR / target FAR",
+        "drift slope": "background drift in 1/day"
+      }
+    }
+  },
+  "figures": {
+    "far_delay_frontier": "paper/figures/exp_ed_01_far_delay_frontier.pdf",
+    "transfer_degradation": "paper/figures/exp_ed_01_transfer_degradation.pdf"
+  },
+  "negative_results": {
+    "far_inflation_gt_1p25_count": 407,
+    "negative_case_rate": 0.14131944444444444
+  },
+  "sympy_checks": {
+    "DMM-T2-SC2.2": true,
+    "DMM-T3-SC3.2": true,
+    "SYMPY-C1-1": true,
+    "SYMPY-C1-2": true
+  },
+  "sympy_report": "experiments/EXP-ED-01/outputs/sympy/sympy_report.md",
+  "tables": {
+    "calibration_by_prior": "paper/tables/exp_ed_01_calibration_by_prior.csv",
+    "delay_ratio_by_regime": "paper/tables/exp_ed_01_delay_ratio_by_regime.csv",
+    "theorem_checks": "experiments/EXP-ED-01/outputs/sympy/theorem_checks.csv"
+  },
+  "timestamp_utc": "2026-03-28T02:55:35Z"
+}

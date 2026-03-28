@@ -1,0 +1,63 @@
+{
+  "timestamp_utc": "2026-03-28T02:55:35Z",
+  "claim_sets": {
+    "derive_math": [
+      "DMM-C1",
+      "DMM-C2",
+      "DMM-C3"
+    ],
+    "experiment_design": [
+      "DMM-C1",
+      "DMM-C2",
+      "DMM-C3"
+    ],
+    "validation_simulation": [
+      "DMM-C1",
+      "DMM-C2",
+      "DMM-C3"
+    ],
+    "claims_aligned": true
+  },
+  "hypothesis_targets": {
+    "hypotheses": [
+      "HM-H1",
+      "HM-H2",
+      "HM-H3"
+    ],
+    "target_hypothesis_ids": [
+      "HM-H2",
+      "HM-H1",
+      "HM-H3"
+    ],
+    "missing_targets": []
+  },
+  "acceptance_checks": {
+    "calibration_violation_le_0p05": false,
+    "delay_win_rate_ge_0p70": true,
+    "loo_inflation_p95_le_1p25": false
+  },
+  "claim_metrics": {
+    "DMM-C1": {
+      "calibration_violation_rate": 0.9524305555555556,
+      "delay_win_rate": 0.9965277777777778,
+      "far_inflation_p95": 1.2871472437242784
+    },
+    "DMM-C2": {
+      "delay_ratio_median_pm_over_bl4": 0.6943264616705991,
+      "far_residual_mean_pm_vs_alpha": 0.17328645000862902
+    },
+    "DMM-C3": {
+      "transfer_degradation_ratio_hard_over_easy": 1.540173914965872
+    }
+  },
+  "negative_results": {
+    "far_inflation_gt_1p25_count": 407,
+    "negative_case_rate": 0.14131944444444444
+  },
+  "theorem_checks": {
+    "total": 4,
+    "met": 4,
+    "unmet": 0
+  },
+  "negative_far_cases_count": 407
+}

@@ -1,0 +1,266 @@
+\begin{thebibliography}{31}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alekseev et~al.(2025)Alekseev, Belov, Bystryakov, Danilov, Filosofov,
+  and Fomina]{SRC001}
+I.~Alekseev, V.~Belov, A.~Bystryakov, M.~Danilov, D.~Filosofov, and M.~Fomina.
+\newblock Long term remote reactor power and fuel composition monitoring using
+  antineutrinos.
+\newblock 2025.
+\newblock \doi{10.1016/j.physletb.2025.139575}.
+\newblock URL \url{https://doi.org/10.1016/j.physletb.2025.139575}.
+
+\bibitem[An et~al.(2023{\natexlab{a}})An, Bai, Balantekin, Bishai, Blyth, and
+  Cao]{SRC012}
+Fengpeng An, Wei Bai, A.~B. Balantekin, M.~Bishai, S.~Blyth, and G.~F. Cao.
+\newblock Precision measurement of reactor antineutrino oscillation at
+  kilometer-scale baselines by daya bay.
+\newblock 2023{\natexlab{a}}.
+\newblock \doi{10.1103/physrevlett.130.161802}.
+\newblock URL \url{https://doi.org/10.1103/physrevlett.130.161802}.
+
+\bibitem[An et~al.(2023{\natexlab{b}})An, Bai, Balantekin, Bishai, Blyth, and
+  Cao]{SRC014}
+Fengpeng An, Wei Bai, A.~B. Balantekin, M.~Bishai, S.~Blyth, and G.~F. Cao.
+\newblock Improved measurement of the evolution of the reactor antineutrino
+  flux and spectrum at daya bay.
+\newblock 2023{\natexlab{b}}.
+\newblock \doi{10.1103/physrevlett.130.211801}.
+\newblock URL \url{https://doi.org/10.1103/physrevlett.130.211801}.
+
+\bibitem[An et~al.(2025{\natexlab{a}})An, Bai, Balantekin, Bishai, Blyth, and
+  Cao]{SRC002}
+Fengpeng An, Wenqi Bai, A.~B. Balantekin, M.~Bishai, S.~Blyth, and G.~F. Cao.
+\newblock Comprehensive measurement of the reactor antineutrino spectrum and
+  flux at daya bay.
+\newblock 2025{\natexlab{a}}.
+\newblock \doi{10.1103/physrevlett.134.201802}.
+\newblock URL \url{https://doi.org/10.1103/physrevlett.134.201802}.
+
+\bibitem[An et~al.(2025{\natexlab{b}})An, Bai, Balantekin, Bishai, Blyth, and
+  Cao]{SRC003}
+Fengpeng An, Wenqi Bai, A.~B. Balantekin, M.~Bishai, S.~Blyth, and G.~F. Cao.
+\newblock Comprehensive measurement of the reactor antineutrino spectrum and
+  flux at daya bay.
+\newblock 2025{\natexlab{b}}.
+\newblock \doi{10.48550/arxiv.2501.00746}.
+\newblock URL \url{https://doi.org/10.48550/arxiv.2501.00746}.
+
+\bibitem[Ball et~al.(2024)Ball, Peterson, Kemp, and Ferry]{SRC007}
+Jenelle Ball, Ethan Peterson, R.~Kemp, and S.~Ferry.
+\newblock Assessing the risk of proliferation via fissile material breeding in
+  arc-class fusion power plants.
+\newblock 2024.
+\newblock \doi{10.48550/arxiv.2404.12451}.
+\newblock URL \url{https://doi.org/10.48550/arxiv.2404.12451}.
+
+\bibitem[Barresi et~al.(2024)Barresi, Borghesi, Cammi, Chiesa, Loi, and
+  Nastasi]{SRC008}
+Andrea Barresi, M.~Borghesi, Antonio Cammi, D.~Chiesa, Lorenzo Loi, and
+  M.~Nastasi.
+\newblock Analysis of reactor burnup simulation uncertainties for antineutrino
+  spectrum prediction.
+\newblock 2024.
+\newblock \doi{10.1140/epjp/s13360-024-05704-z}.
+\newblock URL \url{https://doi.org/10.1140/epjp/s13360-024-05704-z}.
+
+\bibitem[Bernstein et~al.(2002)Bernstein, Wang, Gratta, and West]{SRC035}
+A.~Bernstein, Y.~Wang, G.~Gratta, and T.~West.
+\newblock Nuclear reactor safeguards and monitoring with antineutrino
+  detectors.
+\newblock 2002.
+\newblock \doi{10.1063/1.1452775}.
+\newblock URL \url{https://doi.org/10.1063/1.1452775}.
+
+\bibitem[Bernstein et~al.(2006)Bernstein, Lambert, Elayat, O'Connell, Rexroth,
+  and Baldwin]{SRC034}
+A.~Bernstein, H.E. Lambert, H~A Elayat, W.J. O'Connell, P.E. Rexroth, and
+  George~Thomas Baldwin.
+\newblock Use of antineutrino detectors for nuclear reactor safeguards
+  effectiveness assessment, 2006.
+\newblock URL \url{https://digital.library.unt.edu/ark:/67531/metadc875522/}.
+\newblock Accessed from acquired source corpus.
+
+\bibitem[Boireau et~al.(2016)Boireau, Bouvet, Collin, Coulloux, Cribier, and
+  Deschamp]{SRC018}
+G.~Boireau, L.~Bouvet, A.~P. Collin, G.~Coulloux, M.~Cribier, and H.~Deschamp.
+\newblock Online monitoring of the osiris reactor with the nucifer neutrino
+  detector.
+\newblock 2016.
+\newblock \doi{10.1103/physrevd.93.112006}.
+\newblock URL \url{https://doi.org/10.1103/physrevd.93.112006}.
+
+\bibitem[Christensen et~al.(2015)Christensen, Huber, and Jaffke]{SRC022}
+Eric Christensen, Patrick Huber, and P.~Jaffke.
+\newblock Antineutrino reactor safeguards: A case study of the dprk 1994
+  nuclear crisis.
+\newblock 2015.
+\newblock \doi{10.1080/08929882.2015.996076}.
+\newblock URL \url{https://doi.org/10.1080/08929882.2015.996076}.
+
+\bibitem[Hayes et~al.(2012)Hayes, Trellue, Nieto, and Wilson]{SRC027}
+A.~C. Hayes, Holly Trellue, Michael~Martin Nieto, and W.B. Wilson.
+\newblock Antineutrino monitoring of burning mixed oxide plutonium fuels.
+\newblock 2012.
+\newblock \doi{10.1103/physrevc.85.024617}.
+\newblock URL \url{https://doi.org/10.1103/physrevc.85.024617}.
+
+\bibitem[Huber(2011)]{SRC031}
+Patrick Huber.
+\newblock Determination of antineutrino spectra from nuclear reactors.
+\newblock 2011.
+\newblock \doi{10.1103/physrevc.84.024617}.
+\newblock URL \url{https://doi.org/10.1103/physrevc.84.024617}.
+
+\bibitem[Ishizuka et~al.(2023)Ishizuka, Sasaki, Yamano, Yoshida, and
+  Chiba]{SRC011}
+Chikako Ishizuka, Karen Sasaki, Naoki Yamano, Tadashi Yoshida, and Satoshi
+  Chiba.
+\newblock Reactor antineutrinos and novel application to real-time remote
+  monitoring of nuclear reactors.
+\newblock 2023.
+\newblock \doi{10.1080/00223131.2023.2276418}.
+\newblock URL \url{https://doi.org/10.1080/00223131.2023.2276418}.
+
+\bibitem[Jaffke(2015)]{SRC021}
+P.~Jaffke.
+\newblock Corrections to and applications of the antineutrino spectrum
+  generated by nuclear reactors, 2015.
+\newblock URL \url{http://hdl.handle.net/10919/80031}.
+\newblock Accessed from acquired source corpus.
+
+\bibitem[Kneale et~al.(2023)Kneale, Wilson, Appleyard, Armitage, Holland, and
+  Malek]{SRC009}
+L.~Kneale, S.T. Wilson, Tara Appleyard, J.C. Armitage, Neil~R. Holland, and
+  M.~Malek.
+\newblock Sensitivity of an antineutrino monitor for remote nuclear reactor
+  discovery.
+\newblock 2023.
+\newblock \doi{10.1103/physrevapplied.20.034073}.
+\newblock URL \url{https://doi.org/10.1103/physrevapplied.20.034073}.
+
+\bibitem[Kopeikin et~al.(2024)Kopeikin, Popov, and Skorokhvatov]{SRC006}
+V.~I. Kopeikin, D.~V. Popov, and M.~D. Skorokhvatov.
+\newblock Dynamics of energy release in a nuclear-reactor core.
+\newblock 2024.
+\newblock \doi{10.1134/s106377882470039x}.
+\newblock URL \url{https://doi.org/10.1134/s106377882470039x}.
+
+\bibitem[Lombardo(2023)]{SRC013}
+Claudio Lombardo.
+\newblock Overview of tao detector and its role for juno.
+\newblock 2023.
+\newblock \doi{10.1393/ncc/i2023-23119-5}.
+\newblock URL \url{https://doi.org/10.1393/ncc/i2023-23119-5}.
+
+\bibitem[McCowan(1978)]{SRC036}
+Janie McCowan.
+\newblock Tritium breeding in a fusion--fission hybrid breeder reactor.
+\newblock 1978.
+\newblock \doi{10.2172/6531756}.
+\newblock URL \url{https://doi.org/10.2172/6531756}.
+
+\bibitem[Mention et~al.(2011)Mention, Fechner, Lasserre, Mueller, Lhuillier,
+  and Cribier]{SRC029}
+G.~Mention, M.~Fechner, Th. Lasserre, Th.~A. Mueller, D.~Lhuillier, and
+  M.~Cribier.
+\newblock Reactor antineutrino anomaly.
+\newblock 2011.
+\newblock \doi{10.1103/physrevd.83.073006}.
+\newblock URL \url{https://doi.org/10.1103/physrevd.83.073006}.
+
+\bibitem[Mueller et~al.(2011)Mueller, Lhuillier, Fallot, Letourneau, Cormon,
+  and Fechner]{SRC030}
+Th.~A. Mueller, D.~Lhuillier, M.~Fallot, A.~Letourneau, S.~Cormon, and
+  M.~Fechner.
+\newblock Improved predictions of reactor antineutrino spectra.
+\newblock 2011.
+\newblock \doi{10.1103/physrevc.83.054615}.
+\newblock URL \url{https://doi.org/10.1103/physrevc.83.054615}.
+
+\bibitem[Oguri et~al.(2014)Oguri, Kuroda, Kato, Nakata, Inoue, and Ito]{SRC023}
+S.~Oguri, Yoshihiro Kuroda, Yasuyuki Kato, Rie Nakata, Yoshiyuki Inoue, and
+  Chikara Ito.
+\newblock Reactor antineutrino monitoring with a plastic scintillator array as
+  a new safeguards method.
+\newblock 2014.
+\newblock \doi{10.1016/j.nima.2014.04.065}.
+\newblock URL \url{https://doi.org/10.1016/j.nima.2014.04.065}.
+
+\bibitem[Reed et~al.(2012)Reed, Parker, and Forget]{SRC028}
+Mark~W. Reed, R.~R. Parker, and Benoit Forget.
+\newblock A fission-fusion hybrid reactor in steady-state l-mode tokamak
+  configuration with natural uranium.
+\newblock 2012.
+\newblock \doi{10.1063/1.4706872}.
+\newblock URL \url{https://doi.org/10.1063/1.4706872}.
+
+\bibitem[Ruegsegger et~al.(2023)Ruegsegger, Moreno, Nyberg, Bohm, Wilson, and
+  Lindley]{SRC010}
+Joshua Ruegsegger, C.~Moreno, Matthew Nyberg, Tim~D. Bohm, Paul Wilson, and Ben
+  Lindley.
+\newblock Scoping studies for a lead-lithium-cooled, minor-actinide-burning,
+  fission-fusion hybrid reactor design.
+\newblock 2023.
+\newblock \doi{10.1080/00295639.2022.2154118}.
+\newblock URL \url{https://doi.org/10.1080/00295639.2022.2154118}.
+
+\bibitem[Sheng-chun(2010)]{SRC033}
+Shi Sheng-chun.
+\newblock Preliminary neutronics calculation of thorium-based and ma
+  transmutation breeding blanket for hybrid fusion-fission reactor, 2010.
+\newblock URL
+  \url{https://en.cnki.com.cn/Article\_en/CJFDTOTAL-YZJS201001011.htm}.
+\newblock Accessed from acquired source corpus.
+
+\bibitem[Shi \& Peng(2016)Shi and Peng]{SRC019}
+Xueming Shi and Xianjue Peng.
+\newblock Neutron transport-burnup code mcorgs and its application in fusion
+  fission hybrid blanket conceptual research.
+\newblock 2016.
+\newblock \doi{10.1142/s2010194516602362}.
+\newblock URL \url{https://doi.org/10.1142/s2010194516602362}.
+
+\bibitem[Sonzogni et~al.(2023)Sonzogni, Lorek, Mattera, and McCutchan]{SRC015}
+A.~A. Sonzogni, R.~J. Lorek, A.~Mattera, and E.~A. McCutchan.
+\newblock Examination of decay heat measurements and their relevance for
+  understanding the origin of the reactor antineutrino anomaly.
+\newblock 2023.
+\newblock \doi{10.1103/physrevc.108.024617}.
+\newblock URL \url{https://doi.org/10.1103/physrevc.108.024617}.
+
+\bibitem[Stewart et~al.(2019)Stewart, Jaoude, and Erickson]{SRC017}
+Christopher Stewart, Abdalla~Abou Jaoude, and Anna Erickson.
+\newblock Employing antineutrino detectors to safeguard future nuclear reactors
+  from diversions.
+\newblock 2019.
+\newblock \doi{10.1038/s41467-019-11434-z}.
+\newblock URL \url{https://doi.org/10.1038/s41467-019-11434-z}.
+
+\bibitem[Zhang et~al.(2024)Zhang, Qian, and Fallot]{SRC005}
+C.~Zhang, X.~Qian, and M.~Fallot.
+\newblock Reactor antineutrino flux and anomaly.
+\newblock 2024.
+\newblock \doi{10.1016/j.ppnp.2024.104106}.
+\newblock URL \url{https://doi.org/10.1016/j.ppnp.2024.104106}.
+
+\bibitem[Zhao et~al.(2013)Zhao, Yongwei, Xiao, and Zhou]{SRC025}
+Jing Zhao, Yang Yongwei, Sicong Xiao, and Zhiwei Zhou.
+\newblock Burnup analysis of thorium-uranium based molten salt blanket in a
+  fusion-fission hybrid reactor.
+\newblock 2013.
+\newblock \doi{10.13182/fst13-a19145}.
+\newblock URL \url{https://doi.org/10.13182/fst13-a19145}.
+
+\bibitem[Zheng et~al.(2012)Zheng, Wu, Zu, Yang, and Cao]{SRC026}
+Youqi Zheng, Hongchun Wu, Tiejun Zu, Chao Yang, and Liangzhi Cao.
+\newblock The neutronics studies of fusion fission hybrid power reactor.
+\newblock 2012.
+\newblock \doi{10.1063/1.4706879}.
+\newblock URL \url{https://doi.org/10.1063/1.4706879}.
+
+\end{thebibliography}

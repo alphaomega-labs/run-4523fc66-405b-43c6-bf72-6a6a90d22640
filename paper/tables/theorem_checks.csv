@@ -1,0 +1,5 @@
+check_id,description,result,details
+SYMPY-C1-1,Monotonicity of F(tau) over tau grid,True,d/dtau exp(-k tau) = -k exp(-k tau) < 0 for k>0
+SYMPY-C1-2,LR/TS algebraic identity consistency with likelihood form,True,2 log(L1/L0) == 2(log L1 - log L0)
+DMM-T2-SC2.2,Information decomposition lowers MDS when I_shape > 0,True,"c/sqrt(I_count + I_shape) <= c/sqrt(I_count), sample check delta=-c/sqrt(I_count + I_shape) + c/sqrt(I_count)"
+DMM-T3-SC3.2,"Stability metric bounded in [0,1]",True,"Average of 0/1 indicators remains in [0,1]"

@@ -1,0 +1,174 @@
+{
+  "abstract": "This project targets a key safeguards challenge: identifying covert fissile production pathways in nuclear fusion reactor settings using antineutrino observations. We will study whether novel material configurations (blankets, moderators, shielding, and structural composites) create measurable antineutrino-spectrum or time-profile signatures that improve detectability. The approach combines physics-informed simulation of reactor scenarios with statistical detection models and material sensitivity analysis. We expect to produce a ranked set of material candidates and monitoring strategies that improve early-warning capability while quantifying uncertainty and false-alarm risk.",
+  "ai_review": {
+    "confidence": "Medium",
+    "improvements": "- Owner=revision | Add explicit numbered cross-reference to Table~\\ref{tab:claim_evidence_appendix} in the appendix narrative (near Claim-to-Evidence section). Acceptance test: compiled PDF contains at least one numbered in-text reference to tab:claim_evidence_appendix.\n- Owner=revision | Add explicit \\eqref references for eq:info_decomp and eq:mission_vector in method/appendix claim-linkage prose. Acceptance test: `grep -o '\\\\eqref{eq:info_decomp}'` and `grep -o '\\\\eqref{eq:mission_vector}'` each return >=1 match in `paper/main.tex`.\n- Owner=validation_simulation (follow-up, optional for current acceptance) | Preserve conditional wording for calibration/transfer claims unless thresholds are met by rerun. Acceptance test: abstract/results/conclusion continue to report mixed status with numeric caveats if no rerun closure is available.",
+    "is_ai_generated": true,
+    "label": "omegaXiv AI Reviewer",
+    "questions": "- Non-blocking scientific caveat | Affected claim: robust calibration closure under prior contradiction. Missing/contradictory evidence: acceptance diagnostics still exceed stress thresholds (calibration violation rate 0.9524; leave-one-prior-out FAR inflation p95 1.2871). Owning upstream phase: experiment_design + validation_simulation. Acceptance condition: either rerun meets <=0.05 and <=1.25 thresholds, or the claim remains explicitly conditional in abstract/results/conclusion.\n- Non-blocking scientific caveat | Affected claim: robust co-design transfer stability. Missing/contradictory evidence: hard/easy transfer degradation ratio is 1.5402 (>1.25 target), so deployment-stability evidence is incomplete. Owning upstream phase: experiment_design + validation_simulation. Acceptance condition: rerun with stability-penalty objective achieves <=1.25, or manuscript continues to classify transfer claim as mixed/provisional.\n- Polish item | Affected claim-evidence navigation: appendix claim-evidence table is not explicitly numbered in prose where introduced. Missing evidence tie: \\label{tab:claim_evidence_appendix} is present but referenced text uses only \"the table above.\" Owning upstream phase: revision. Acceptance condition: add explicit in-text reference Table~\\ref{tab:claim_evidence_appendix} near the appendix narrative.",
+    "recommendation": "Weak Accept",
+    "scores": {
+      "code": 3,
+      "math": 3,
+      "novelty": 3,
+      "reproducibility": 3,
+      "soundness": 3,
+      "writing": 2
+    },
+    "strengths": "Manuscript package remains compile-ready with formal theorem/proof blocks, bibliography, equation-usage map, and compiled PDF evidence. Recovery retry corrected schema-critical symbol definitions so each symbol entry has a non-empty meaning field while preserving claim-evidence caveats and page-budget evidence.",
+    "summary": "The manuscript is scientifically coherent, modality-aligned to the empirical-hybrid user intent, and publication-ready with explicit claim-evidence caveats. Core experimental evidence supports detectability-improvement claims (especially joint count-shape performance), formal theorem/symbolic checks are integrated and auditable, and limitations/negative results are transparently reported. Approval is granted with warnings because calibration and transfer closure remain conditional, and two minor manuscript-polish items should be tightened.",
+    "weaknesses": "- Non-blocking scientific caveat | Affected claim: robust calibration closure under prior contradiction. Missing/contradictory evidence: acceptance diagnostics still exceed stress thresholds (calibration violation rate 0.9524; leave-one-prior-out FAR inflation p95 1.2871). Owning upstream phase: experiment_design + validation_simulation. Acceptance condition: either rerun meets <=0.05 and <=1.25 thresholds, or the claim remains explicitly conditional in abstract/results/conclusion.\n- Non-blocking scientific caveat | Affected claim: robust co-design transfer stability. Missing/contradictory evidence: hard/easy transfer degradation ratio is 1.5402 (>1.25 target), so deployment-stability evidence is incomplete. Owning upstream phase: experiment_design + validation_simulation. Acceptance condition: rerun with stability-penalty objective achieves <=1.25, or manuscript continues to classify transfer claim as mixed/provisional.\n- Polish item | Affected claim-evidence navigation: appendix claim-evidence table is not explicitly numbered in prose where introduced. Missing evidence tie: \\label{tab:claim_evidence_appendix} is present but referenced text uses only \"the table above.\" Owning upstream phase: revision. Acceptance condition: add explicit in-text reference Table~\\ref{tab:claim_evidence_appendix} near the appendix narrative.\n- Polish item | Affected formal readability: equations eq:info_decomp and eq:mission_vector are defined but not later cited with explicit \\eqref in synthesis/appendix prose. Missing evidence tie: equation-role linkage is implied rather than explicitly indexed. Owning upstream phase: revision. Acceptance condition: add one explicit sentence in method or appendix linking those equation labels to subsequent claims."
+  },
+  "artifacts": [
+    {
+      "kind": "github_repo",
+      "label": "GitHub Repo",
+      "uri": "https://github.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640"
+    },
+    {
+      "kind": "paper_pdf",
+      "label": "Paper PDF",
+      "uri": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/paper/main.pdf"
+    },
+    {
+      "kind": "paper_thumbnail",
+      "label": "Paper Thumbnail",
+      "uri": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/paper/thumbnail.png"
+    },
+    {
+      "kind": "latex_sources",
+      "label": "LaTeX Sources",
+      "uri": "https://github.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/blob/main/paper/main.tex"
+    },
+    {
+      "kind": "sources",
+      "label": "Sources",
+      "uri": "https://github.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/blob/main/sources/sources.json"
+    }
+  ],
+  "artifacts_summary": "Manuscript package remains compile-ready with formal theorem/proof blocks, bibliography, equation-usage map, and compiled PDF evidence. Recovery retry corrected schema-critical symbol definitions so each symbol entry has a non-empty meaning field while preserving claim-evidence caveats and page-budget evidence.",
+  "compute_budget": "TBD",
+  "constraints": [
+    "Use open, parameterized reactor configurations due to limited proprietary reactor design access.",
+    "Assume CPU-only accelerator availability.",
+    "Treat detector assumptions (efficiency, background, energy resolution, standoff distance) as explicit sensitivity parameters, not fixed constants.",
+    "Ensure material comparisons are interpretable and robust across power variability, burnup proxies, and background shifts.",
+    "Do not rely on a single idealized detector setup."
+  ],
+  "context_id": "4523fc66-405b-43c6-bf72-6a6a90d22640",
+  "created_at": "2026-03-28 00:39:17.283798+00:00",
+  "difficulty": "Exploratory",
+  "domain": "Nuclear safeguards and reactor monitoring",
+  "evaluation_plan": "Run physics-informed simulated reactor scenarios with material variations and baseline comparators; evaluate detection delay, true-positive rate, and minimum detectable diversion scenario under finite efficiency/background/energy-resolution/standoff constraints. Report uncertainty bounds, false-alarm rates, and ablation studies for material-property contribution. Include robustness stress tests for model misspecification and background drift.",
+  "expected_artifacts": [
+    "Paper",
+    "Code"
+  ],
+  "full_description": "Scope: Build a simulation-and-inference framework to evaluate how candidate materials influence antineutrino emissions and detectability of covert fissile production in fusion-adjacent fuel-cycle scenarios. Compare material-dependent signal changes under realistic detector constraints (finite efficiency, background, energy resolution, standoff distance), prioritizing operational detectability under imperfect measurements.\n\nAssumptions and constraints: limited access to proprietary reactor design details; use open, parameterized reactor configurations. Keep detector assumptions explicit and sensitivity-tested rather than fixed to one idealized setup. Ensure material comparisons remain interpretable across plausible operating conditions, including power variability, burnup proxies, and background shifts.\n\nEvaluation framing: benchmark against baseline monitoring assumptions using comparator metrics including detection delay, true-positive rate, and minimum detectable diversion scenario. Quantify uncertainty, false-alarm risk, and limitations through stress tests for model misspecification and background drift.\n\nExpected outputs: reproducible scenario generator and antineutrino signal simulation pipeline, ranked material candidates with detection-performance tradeoffs, benchmarking report, and deployment-oriented detector-material co-design guidance.",
+  "goals": [
+    "Develop a reproducible scenario generator and antineutrino signal simulation pipeline for fusion-adjacent covert fissile production scenarios.",
+    "Quantify whether candidate material configurations produce measurable antineutrino spectral or temporal signatures that improve detectability.",
+    "Rank candidate materials by detection-performance tradeoffs under realistic detector constraints and background conditions.",
+    "Demonstrate statistically meaningful improvement versus baseline monitoring in at least one comparator metric (detection delay, true-positive rate, or minimum detectable diversion scenario).",
+    "Characterize uncertainty, false-alarm risk, ablation contribution of material properties, and robustness under misspecification/background drift."
+  ],
+  "key_terms": [
+    "antineutrino detection",
+    "fusion reactors",
+    "nuclear safeguards",
+    "covert fissile production",
+    "materials modeling",
+    "anomaly detection",
+    "reactor blankets",
+    "moderators",
+    "shielding",
+    "structural composites",
+    "detection delay",
+    "true-positive rate",
+    "minimum detectable diversion",
+    "false-alarm risk",
+    "uncertainty quantification",
+    "model misspecification",
+    "background drift",
+    "material sensitivity analysis"
+  ],
+  "original_problem": {
+    "compute_budget": "TBD",
+    "constraints": [
+      "Use open, parameterized reactor configurations due to limited proprietary reactor design access.",
+      "Assume CPU-only accelerator availability.",
+      "Treat detector assumptions (efficiency, background, energy resolution, standoff distance) as explicit sensitivity parameters, not fixed constants.",
+      "Ensure material comparisons are interpretable and robust across power variability, burnup proxies, and background shifts.",
+      "Do not rely on a single idealized detector setup."
+    ],
+    "difficulty": "Exploratory",
+    "domain": "Nuclear safeguards and reactor monitoring",
+    "evaluation_plan": "Run physics-informed simulated reactor scenarios with material variations and baseline comparators; evaluate detection delay, true-positive rate, and minimum detectable diversion scenario under finite efficiency/background/energy-resolution/standoff constraints. Report uncertainty bounds, false-alarm rates, and ablation studies for material-property contribution. Include robustness stress tests for model misspecification and background drift.",
+    "expected_artifacts": [
+      "Paper",
+      "Code"
+    ],
+    "full_description": "Scope: Build a simulation-and-inference framework to evaluate how candidate materials influence antineutrino emissions and detectability of covert fissile production in fusion-adjacent fuel-cycle scenarios. Compare material-dependent signal changes under realistic detector constraints (finite efficiency, background, energy resolution, standoff distance), prioritizing operational detectability under imperfect measurements.\n\nAssumptions and constraints: limited access to proprietary reactor design details; use open, parameterized reactor configurations. Keep detector assumptions explicit and sensitivity-tested rather than fixed to one idealized setup. Ensure material comparisons remain interpretable across plausible operating conditions, including power variability, burnup proxies, and background shifts.\n\nEvaluation framing: benchmark against baseline monitoring assumptions using comparator metrics including detection delay, true-positive rate, and minimum detectable diversion scenario. Quantify uncertainty, false-alarm risk, and limitations through stress tests for model misspecification and background drift.\n\nExpected outputs: reproducible scenario generator and antineutrino signal simulation pipeline, ranked material candidates with detection-performance tradeoffs, benchmarking report, and deployment-oriented detector-material co-design guidance.",
+    "goals": [
+      "Develop a reproducible scenario generator and antineutrino signal simulation pipeline for fusion-adjacent covert fissile production scenarios.",
+      "Quantify whether candidate material configurations produce measurable antineutrino spectral or temporal signatures that improve detectability.",
+      "Rank candidate materials by detection-performance tradeoffs under realistic detector constraints and background conditions.",
+      "Demonstrate statistically meaningful improvement versus baseline monitoring in at least one comparator metric (detection delay, true-positive rate, or minimum detectable diversion scenario).",
+      "Characterize uncertainty, false-alarm risk, ablation contribution of material properties, and robustness under misspecification/background drift."
+    ],
+    "key_terms": [
+      "antineutrino detection",
+      "fusion reactors",
+      "nuclear safeguards",
+      "covert fissile production",
+      "materials modeling",
+      "anomaly detection",
+      "reactor blankets",
+      "moderators",
+      "shielding",
+      "structural composites",
+      "detection delay",
+      "true-positive rate",
+      "minimum detectable diversion",
+      "false-alarm risk",
+      "uncertainty quantification",
+      "model misspecification",
+      "background drift",
+      "material sensitivity analysis"
+    ],
+    "problem_type": "Open Question",
+    "request_text": "Title: Material Signatures for Antineutrino-Based Detectability of Covert Fissile Production in Fusion Reactors\nAbstract: This project targets a key safeguards challenge: identifying covert fissile production pathways in nuclear fusion reactor settings using antineutrino observations. We will study whether novel material configurations (blankets, moderators, shielding, and structural composites) create measurable antineutrino-spectrum or time-profile signatures that improve detectability. The approach combines physics-informed simulation of reactor scenarios with statistical detection models and material sensitivity analysis. We expect to produce a ranked set of material candidates and monitoring strategies that improve early-warning capability while quantifying uncertainty and false-alarm risk.\nFull Description: Scope: Build a simulation-and-inference framework to evaluate how candidate materials influence antineutrino emissions and detectability of covert fissile production in fusion-adjacent fuel-cycle scenarios. The work should compare material-dependent signal changes under realistic detector constraints (finite efficiency, background, energy resolution, and standoff distance). The core objective is not only signal separation, but operational detectability under imperfect measurements.\n\nConstraints: The project should assume limited access to proprietary reactor design details and rely on open, parameterized reactor configurations. Detector assumptions must be explicit and sensitivity-tested rather than fixed to a single idealized setup. Material comparisons should be interpretable and robust across plausible operating conditions (power variability, burnup proxies, and background shifts).\n\nSuccess criteria: Demonstrate that at least one material-informed monitoring configuration yields statistically meaningful improvement versus baseline assumptions in detection delay, true-positive rate, or minimum detectable diversion scenario. Provide uncertainty bounds and ablation results showing which material properties contribute most to detectability gains. Include stress tests for model misspecification and background drift.\n\nDeliverables: (1) a reproducible scenario generator and antineutrino signal simulation pipeline, (2) material ranking with detection-performance tradeoffs, (3) benchmarking report against baseline monitoring assumptions, and (4) deployment-oriented guidance on detector-material co-design for safeguards use cases.\nProblem Type: Open Question\nDifficulty: Exploratory\nDomain: Nuclear safeguards and reactor monitoring\nOriginator: Marius-Constantin Dinu\nCompute Budget: TBD\nRequired Accelerator: CPU only available\nTarget Deadline: Open\nTags: antineutrino detection, fusion reactors, nuclear safeguards, covert fissile production, materials modeling, anomaly detection\nCategories: Nuclear safeguards and reactor monitoring\nExpected Artifacts: Paper, Code\nRelated Links: None\nDataset Links: None",
+    "tags": [
+      "antineutrino detection",
+      "fusion reactors",
+      "nuclear safeguards",
+      "covert fissile production",
+      "materials modeling",
+      "anomaly detection"
+    ],
+    "target_deadline": "Open"
+  },
+  "paper_pdf_url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/paper/main.pdf",
+  "paper_thumbnail_url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/paper/thumbnail.png",
+  "parent_run_id": null,
+  "pipeline_id": "4523fc66-405b-43c6-bf72-6a6a90d22640",
+  "preview_run_id": "4523fc66-405b-43c6-bf72-6a6a90d22640",
+  "problem_type": "Open Question",
+  "published_run_id": "4523fc66-405b-43c6-bf72-6a6a90d22640",
+  "repo_url": "https://github.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640",
+  "request_text": "Title: Material Signatures for Antineutrino-Based Detectability of Covert Fissile Production in Fusion Reactors\nAbstract: This project targets a key safeguards challenge: identifying covert fissile production pathways in nuclear fusion reactor settings using antineutrino observations. We will study whether novel material configurations (blankets, moderators, shielding, and structural composites) create measurable antineutrino-spectrum or time-profile signatures that improve detectability. The approach combines physics-informed simulation of reactor scenarios with statistical detection models and material sensitivity analysis. We expect to produce a ranked set of material candidates and monitoring strategies that improve early-warning capability while quantifying uncertainty and false-alarm risk.\nFull Description: Scope: Build a simulation-and-inference framework to evaluate how candidate materials influence antineutrino emissions and detectability of covert fissile production in fusion-adjacent fuel-cycle scenarios. The work should compare material-dependent signal changes under realistic detector constraints (finite efficiency, background, energy resolution, and standoff distance). The core objective is not only signal separation, but operational detectability under imperfect measurements.\n\nConstraints: The project should assume limited access to proprietary reactor design details and rely on open, parameterized reactor configurations. Detector assumptions must be explicit and sensitivity-tested rather than fixed to a single idealized setup. Material comparisons should be interpretable and robust across plausible operating conditions (power variability, burnup proxies, and background shifts).\n\nSuccess criteria: Demonstrate that at least one material-informed monitoring configuration yields statistically meaningful improvement versus baseline assumptions in detection delay, true-positive rate, or minimum detectable diversion scenario. Provide uncertainty bounds and ablation results showing which material properties contribute most to detectability gains. Include stress tests for model misspecification and background drift.\n\nDeliverables: (1) a reproducible scenario generator and antineutrino signal simulation pipeline, (2) material ranking with detection-performance tradeoffs, (3) benchmarking report against baseline monitoring assumptions, and (4) deployment-oriented guidance on detector-material co-design for safeguards use cases.\nProblem Type: Open Question\nDifficulty: Exploratory\nDomain: Nuclear safeguards and reactor monitoring\nOriginator: Marius-Constantin Dinu\nCompute Budget: TBD\nRequired Accelerator: CPU only available\nTarget Deadline: Open\nTags: antineutrino detection, fusion reactors, nuclear safeguards, covert fissile production, materials modeling, anomaly detection\nCategories: Nuclear safeguards and reactor monitoring\nExpected Artifacts: Paper, Code\nRelated Links: None\nDataset Links: None",
+  "root_run_id": "4523fc66-405b-43c6-bf72-6a6a90d22640",
+  "run_id": "4523fc66-405b-43c6-bf72-6a6a90d22640",
+  "session_id": "4523fc66-405b-43c6-bf72-6a6a90d22640",
+  "tags": [
+    "antineutrino detection",
+    "fusion reactors",
+    "nuclear safeguards",
+    "covert fissile production",
+    "materials modeling",
+    "anomaly detection"
+  ],
+  "target_deadline": "Open",
+  "title": "Material Signatures for Antineutrino-Based Detectability of Covert Fissile Production in Fusion Reactors",
+  "updated_at": "2026-03-28 00:39:17.289134+00:00"
+}
