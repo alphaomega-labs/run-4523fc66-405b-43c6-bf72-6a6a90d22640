@@ -21,29 +21,24 @@
   },
   "artifacts": [
     {
-      "kind": "github_repo",
-      "label": "GitHub Repo",
-      "uri": "https://github.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640"
-    },
-    {
       "kind": "paper_pdf",
       "label": "Paper PDF",
-      "uri": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/paper/main.pdf"
+      "uri": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/paper/main.pdf"
     },
     {
       "kind": "paper_thumbnail",
       "label": "Paper Thumbnail",
-      "uri": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/paper/thumbnail.png"
+      "uri": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/paper/thumbnail.png"
     },
     {
       "kind": "latex_sources",
       "label": "LaTeX Sources",
-      "uri": "https://github.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/blob/main/paper/main.tex"
+      "uri": "https://github.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/blob/paper-v2/paper/main.tex"
     },
     {
       "kind": "sources",
       "label": "Sources",
-      "uri": "https://github.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/blob/main/sources/sources.json"
+      "uri": "https://github.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/blob/paper-v2/sources/sources.json"
     }
   ],
   "artifacts_summary": "Manuscript package remains compile-ready with formal theorem/proof blocks, bibliography, equation-usage map, and compiled PDF evidence. Recovery retry corrected schema-critical symbol definitions so each symbol entry has a non-empty meaning field while preserving claim-evidence caveats and page-budget evidence.",
@@ -155,119 +150,119 @@
         "path": "packages/antineutrino-safeguards/packaging_manifest.json",
         "sha256": "642b5db59f5f19acc81cd9e3472a20e70b47c5cdcaf06abd60690e09da91596b",
         "size_bytes": 3827,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/packaging_manifest.json"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/packaging_manifest.json"
       },
       {
         "kind": "other",
         "path": "packages/antineutrino-safeguards/README.md",
         "sha256": "56899114a7a3144efed84055ba4ed000c42e66c82ef69df243cdf55938d8c76d",
         "size_bytes": 3519,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/README.md"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/README.md"
       },
       {
         "kind": "other",
         "path": "packages/antineutrino-safeguards/requirements.txt",
         "sha256": "de23f9eb77e4a369c4afcf2c5f4fb5c051993a0f37355c3ef73597e6e4f2b680",
         "size_bytes": 120,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/requirements.txt"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/requirements.txt"
       },
       {
         "kind": "other",
         "path": "packages/antineutrino-safeguards/dependency_graph.json",
         "sha256": "5f7f2e88e9a72f803798b530bb653d0c3d54e4ff9afc5b95312d397038e7226d",
         "size_bytes": 512,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/dependency_graph.json"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/dependency_graph.json"
       },
       {
         "kind": "other",
         "path": "packages/antineutrino-safeguards/pyproject.toml",
         "sha256": "fa9a9f92fa532c7972935820ad7e9843dadcde2a151cef593c6348dbb227f85d",
         "size_bytes": 1006,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/pyproject.toml"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/pyproject.toml"
       },
       {
         "kind": "other",
         "path": "packages/antineutrino-safeguards/src/antineutrino_safeguards/simulation.py",
         "sha256": "e0cc9550878b45b0c7be1b8c53192108ede84f4dfe3244c4ba5cf6158a37dc2f",
         "size_bytes": 6533,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/src/antineutrino_safeguards/simulation.py"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/src/antineutrino_safeguards/simulation.py"
       },
       {
         "kind": "other",
         "path": "packages/antineutrino-safeguards/src/antineutrino_safeguards/analysis.py",
         "sha256": "69081e47d8f9dae69e6aff84a918a3e4f39855884d93eec9e5671cbf98880b56",
         "size_bytes": 7204,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/src/antineutrino_safeguards/analysis.py"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/src/antineutrino_safeguards/analysis.py"
       },
       {
         "kind": "other",
         "path": "packages/antineutrino-safeguards/src/antineutrino_safeguards/symbolic.py",
         "sha256": "f59859ab6cd95b5ca03b7f341e6a3122591e412957d236abade2ac9fa2144e8f",
         "size_bytes": 3270,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/src/antineutrino_safeguards/symbolic.py"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/src/antineutrino_safeguards/symbolic.py"
       },
       {
         "kind": "other",
         "path": "packages/antineutrino-safeguards/src/antineutrino_safeguards/mcp_server.py",
         "sha256": "d6acca1469bf59753a116892322e89b12a83df0dfeefe2e1b535c3467ddc44ad",
         "size_bytes": 4674,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/src/antineutrino_safeguards/mcp_server.py"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/src/antineutrino_safeguards/mcp_server.py"
       },
       {
         "kind": "other",
         "path": "packages/antineutrino-safeguards/src/antineutrino_safeguards/mcp_adapter.py",
         "sha256": "77e273454d12c059e7664da4335a89359c07abd242425001ffed4a9868825cc2",
         "size_bytes": 2806,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/src/antineutrino_safeguards/mcp_adapter.py"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/src/antineutrino_safeguards/mcp_adapter.py"
       },
       {
         "kind": "other",
         "path": "packages/antineutrino-safeguards/mcp_server.example.json",
         "sha256": "10585ce028a6d92169e513ab1be211d96d035f0fd0615f8768dbc457f0729fae",
         "size_bytes": 190,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/mcp_server.example.json"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/mcp_server.example.json"
       },
       {
         "kind": "other",
         "path": "packages/antineutrino-safeguards/tests/test_pipeline.py",
         "sha256": "b1dced7e240a51e62682c0638724dce79f897decf4075d5be0c13ae21efea57f",
         "size_bytes": 1681,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/tests/test_pipeline.py"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/tests/test_pipeline.py"
       },
       {
         "kind": "other",
         "path": "packages/antineutrino-safeguards/examples/basic_usage.py",
         "sha256": "fbb2400140a67665d096c964fa6aea47e15f8dbea6e7550f5e0a0ed3aa9872b8",
         "size_bytes": 752,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/examples/basic_usage.py"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/examples/basic_usage.py"
       },
       {
         "kind": "wheel",
         "path": "packages/antineutrino-safeguards/dist/antineutrino_safeguards-0.1.0-py3-none-any.whl",
         "sha256": "187e52b16c943e10f0972243eee398244151709820d75a6f30de80b7c50669a4",
         "size_bytes": 12993,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/dist/antineutrino_safeguards-0.1.0-py3-none-any.whl"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/dist/antineutrino_safeguards-0.1.0-py3-none-any.whl"
       },
       {
         "kind": "sdist",
         "path": "packages/antineutrino-safeguards/dist/antineutrino_safeguards-0.1.0.tar.gz",
         "sha256": "7d8c21b6e87fbf1b07541ec0dc5cc7b1d5a2e5919ed6b52604c61f78c822bc03",
         "size_bytes": 12220,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/dist/antineutrino_safeguards-0.1.0.tar.gz"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/dist/antineutrino_safeguards-0.1.0.tar.gz"
       },
       {
         "kind": "other",
         "path": "packages/registry/index.json",
         "sha256": "5da16619b1d85876ed659cf14b2e15a07fc70193770e67bfb345fc4b84cc3f3e",
         "size_bytes": 221,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/registry/index.json"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/registry/index.json"
       },
       {
         "kind": "other",
         "path": "packages/registry/antineutrino-safeguards.json",
         "sha256": "7b400ee78ff6758ab1e0629725e656487b4b6bca629b22b1c4636fb2f6e14741",
         "size_bytes": 1055,
-        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/registry/antineutrino-safeguards.json"
+        "url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/registry/antineutrino-safeguards.json"
       }
     ],
     "dependencies": [
@@ -337,7 +332,7 @@
     ],
     "dependency_graph_mermaid": "graph TD\n  antineutrino-safeguards --> python[python >=3.10]\n  release-build --> build\n  release-build --> setuptools\n  release-build --> wheel\n  qa --> pytest\n  qa --> mypy\n  qa --> ruff",
     "dependency_graph_path": "packages/antineutrino-safeguards/dependency_graph.json",
-    "dependency_graph_url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/dependency_graph.json",
+    "dependency_graph_url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/dependency_graph.json",
     "distribution_name": "antineutrino-safeguards",
     "handle": "antineutrino-safeguards",
     "handle_alternatives": [
@@ -348,14 +343,18 @@
     "handle_confirmed": true,
     "import_name": "antineutrino_safeguards",
     "install_command": "pip install omegaxiv && ox install antineutrino-safeguards==0.1.0",
+    "install_ready": true,
     "install_target": "packages/antineutrino-safeguards/dist/antineutrino_safeguards-0.1.0-py3-none-any.whl",
     "manager_install_command": "pip install omegaxiv",
     "manifest_path": "packages/antineutrino-safeguards/packaging_manifest.json",
     "package_type": "library",
     "readme_path": "packages/antineutrino-safeguards/README.md",
-    "readme_url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/README.md",
+    "readme_url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/README.md",
+    "registry_index_url": "https://raw.githubusercontent.com/alphaomega-labs/registry/main/packages/index.json",
+    "registry_record_url": "https://raw.githubusercontent.com/alphaomega-labs/registry/main/handles/antineutrino-safeguards.json",
+    "registry_status": "synced",
     "requirements_path": "packages/antineutrino-safeguards/requirements.txt",
-    "requirements_url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/packages/antineutrino-safeguards/requirements.txt",
+    "requirements_url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/paper-v2/packages/antineutrino-safeguards/requirements.txt",
     "version": "0.1.0"
   },
   "paper_pdf_url": "https://raw.githubusercontent.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640/main/paper/main.pdf",
@@ -365,11 +364,14 @@
   "preview_run_id": "28c0ab5b-7009-4918-ba98-5beefa76b835",
   "problem_type": "Open Question",
   "published_run_id": "28c0ab5b-7009-4918-ba98-5beefa76b835",
+  "repo_commit_sha": "40077082f68ee6d4949dcf3b84a7c41160992b54",
+  "repo_ref": "paper-v2",
   "repo_url": "https://github.com/alphaomega-labs/run-4523fc66-405b-43c6-bf72-6a6a90d22640",
   "request_text": "Title: Material Signatures for Antineutrino-Based Detectability of Covert Fissile Production in Fusion Reactors\nAbstract: This project targets a key safeguards challenge: identifying covert fissile production pathways in nuclear fusion reactor settings using antineutrino observations. We will study whether novel material configurations (blankets, moderators, shielding, and structural composites) create measurable antineutrino-spectrum or time-profile signatures that improve detectability. The approach combines physics-informed simulation of reactor scenarios with statistical detection models and material sensitivity analysis. We expect to produce a ranked set of material candidates and monitoring strategies that improve early-warning capability while quantifying uncertainty and false-alarm risk.\nFull Description: Scope: Build a simulation-and-inference framework to evaluate how candidate materials influence antineutrino emissions and detectability of covert fissile production in fusion-adjacent fuel-cycle scenarios. The work should compare material-dependent signal changes under realistic detector constraints (finite efficiency, background, energy resolution, and standoff distance). The core objective is not only signal separation, but operational detectability under imperfect measurements.\n\nConstraints: The project should assume limited access to proprietary reactor design details and rely on open, parameterized reactor configurations. Detector assumptions must be explicit and sensitivity-tested rather than fixed to a single idealized setup. Material comparisons should be interpretable and robust across plausible operating conditions (power variability, burnup proxies, and background shifts).\n\nSuccess criteria: Demonstrate that at least one material-informed monitoring configuration yields statistically meaningful improvement versus baseline assumptions in detection delay, true-positive rate, or minimum detectable diversion scenario. Provide uncertainty bounds and ablation results showing which material properties contribute most to detectability gains. Include stress tests for model misspecification and background drift.\n\nDeliverables: (1) a reproducible scenario generator and antineutrino signal simulation pipeline, (2) material ranking with detection-performance tradeoffs, (3) benchmarking report against baseline monitoring assumptions, and (4) deployment-oriented guidance on detector-material co-design for safeguards use cases.\nProblem Type: Open Question\nDifficulty: Exploratory\nDomain: Nuclear safeguards and reactor monitoring\nOriginator: Marius-Constantin Dinu\nCompute Budget: TBD\nRequired Accelerator: CPU only available\nTarget Deadline: Open\nTags: antineutrino detection, fusion reactors, nuclear safeguards, covert fissile production, materials modeling, anomaly detection\nCategories: Nuclear safeguards and reactor monitoring\nExpected Artifacts: Paper, Code\nRelated Links: None\nDataset Links: None",
   "root_run_id": "4523fc66-405b-43c6-bf72-6a6a90d22640",
   "run_id": "28c0ab5b-7009-4918-ba98-5beefa76b835",
   "session_id": "4523fc66-405b-43c6-bf72-6a6a90d22640",
+  "snapshot_branch": "snapshot/paper-v2",
   "tags": [
     "antineutrino detection",
     "fusion reactors",
@@ -380,5 +382,6 @@
   ],
   "target_deadline": "Open",
   "title": "Material Signatures for Antineutrino-Based Detectability of Covert Fissile Production in Fusion Reactors",
-  "updated_at": "2026-03-28 06:57:04.054352+00:00"
+  "updated_at": "2026-03-28 06:57:04.054352+00:00",
+  "version": 2
 }
